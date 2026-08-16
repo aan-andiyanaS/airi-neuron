@@ -55,8 +55,8 @@ Proyek ini adalah **Phase 1 / PoC** — membuktikan bahwa model vision-language 
 | 🟢 Task 1: Project skeleton + CI | ✅ Selesai | AGP 8.5.2, KSP, JUnit5, `arm64-v8a` only |
 | 🟢 Task 2: Data layer (Room) | ✅ Selesai | ChatEntity, ChatDao, AppDatabase, ChatRepository |
 | 🟢 Task 3: ChatViewModel + StateFlow | ✅ Selesai | sendPrompt, attachImage, clearError, Factory |
-| 🔵 Task 4: ChatActivity + RecyclerView | 🚧 Berikutnya | Layout XML, ChatAdapter, ChatViewHolder |
-| ⚪ Task 5: llama.cpp research \[GATE\] | 🔵 Direncanakan | Pin versi, konfirmasi pendekatan JNI |
+| 🟢 Task 4: ChatActivity + RecyclerView | ✅ Selesai | activity_chat.xml, ChatAdapter, ImageProcessor, LeakCanary |
+| 🔵 Task 5: llama.cpp research \[GATE\] | 🚧 Berikutnya | Pin versi, konfirmasi pendekatan JNI |
 | ⚪ Task 6: JNI Bridge (LlamaCppBridge) | ⬜ Direncanakan | C++ NDK, LlamaCppBridge.kt + .cpp |
 | ⚪ Task 7: InferenceManager + wiring | ⬜ Direncanakan | Ganti TODO stubs di ChatViewModel |
 | ⚪ Task 8: Security layer | ⬜ Direncanakan | InputValidator, OutputFilter |
