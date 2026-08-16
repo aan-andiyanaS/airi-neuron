@@ -1,0 +1,17 @@
+*.iml
+.gradle
+/local.properties
+/.idea
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# GGUF model files — too large for git (push to device directly)
+*.gguf
+
+# Android keystore
+*.jks
+*.keystore

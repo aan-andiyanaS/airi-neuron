@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AIRI Neuron</string>
+    <string name="hint_message_input">Type a message…</string>
+    <string name="button_send">Send</string>
+    <string name="button_attach">Attach image</string>
+    <string name="label_loading">Thinking…</string>
+    <string name="error_file_too_large">File too large (max 10MB)</string>
+    <string name="error_file_format">Format not supported. Use JPG or PNG.</string>
+    <string name="error_inference_failed">Something went wrong. Please try again.</string>
+    <string name="disclaimer_navigation">Results may be inaccurate. Always verify manually.</string>
+    <string name="safe_response">Sorry, I cannot answer that.</string>
+</resources>

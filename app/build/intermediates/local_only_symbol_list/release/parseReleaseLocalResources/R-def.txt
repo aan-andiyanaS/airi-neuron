@@ -1,0 +1,17 @@
+R_DEF: Internal format may change without notice
+local
+color ic_launcher_background
+drawable ic_launcher_foreground
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string button_attach
+string button_send
+string disclaimer_navigation
+string error_file_format
+string error_file_too_large
+string error_inference_failed
+string hint_message_input
+string label_loading
+string safe_response
+style Theme.AIRI
