@@ -1,9 +1,9 @@
 # Software Requirements Specification (SRS)
 ## AIRI Neuron — Phase 1: On-Device Multimodal SLM (MiniCPM-V 4.6)
 
-**Version:** 1.1  
+**Version:** 1.2  
 **Date:** 2026-08-16  
-**Status:** Updated — gaps from review resolved  
+**Status:** Updated — Task 4 done, code/doc inconsistencies resolved  
 
 ---
 
@@ -116,11 +116,11 @@ This application is a proof-of-concept for validating on-device multimodal infer
 | Component | Description |
 |---|---|
 | ChatActivity | Main activity with RecyclerView for chat history |
-| ChatAdapter | Adapter for displaying chat bubbles (user vs model) |
+| ChatAdapter | Adapter for displaying chat bubbles (user vs model). `ChatViewHolder` is a sealed class **inside ChatAdapter** — no separate file. |
 | InputEditText | EditText for user text input |
 | AttachButton | Button to open image file picker |
 | SendButton | Button to send prompt to model |
-| LoadingIndicator | ProgressBar during inference |
+| LoadingIndicator | LinearProgressIndicator during inference |
 
 ### 5.2 External Interfaces
 

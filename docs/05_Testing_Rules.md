@@ -1,7 +1,7 @@
 # Testing Rules & Quality Assurance
 ## AIRI Neuron — Phase 1: On-Device Multimodal SLM
 
-**Version:** 1.1  
+**Version:** 1.2  
 **Date:** 2026-08-16  
 **Standard:** IEEE 830 (Software Testing Documentation)  
 

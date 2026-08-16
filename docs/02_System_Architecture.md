@@ -1,7 +1,7 @@
 # System Architecture
 ## AIRI Neuron — Phase 1: On-Device Multimodal SLM
 
-**Version:** 1.1  
+**Version:** 1.2  
 **Date:** 2026-08-16  
 **Standard:** ISO/IEC/IEEE 42010  
 
@@ -74,12 +74,11 @@
 | Component | File | Description |
 |---|---|---|
 | ChatActivity | `ChatActivity.kt` | Main activity, initializes ViewModel and RecyclerView. Delegates all logic to ViewModel — no direct calls to ImageProcessor. |
-| ChatAdapter | `ChatAdapter.kt` | Adapter for displaying chat bubbles (user vs model) |
-| ChatViewHolder | `ChatViewHolder.kt` | ViewHolder for chat items (TextView, ImageView for images) |
+| ChatAdapter | `ChatAdapter.kt` | Adapter for displaying chat bubbles (user vs model). `ChatViewHolder` is a **sealed class inside ChatAdapter** (not a separate file) — eliminates unchecked cast and keeps ViewHolder logic co-located with adapter. |
 | InputEditText | (in layout) | EditText for user text input |
 | AttachButton | (in layout) | Button to open image file picker — on result, calls `ChatViewModel.attachImage(uri)` |
 | SendButton | (in layout) | Button to call `ChatViewModel.sendPrompt(text)` |
-| LoadingIndicator | (in layout) | ProgressBar during inference |
+| LoadingIndicator | (in layout) | LinearProgressIndicator during inference |
 
 ### 2.2 Controller Layer
 
@@ -160,16 +159,17 @@
 ```
 1. User taps AttachButton → ChatActivity opens file picker
 2. File picker returns URI → ChatActivity calls ChatViewModel.attachImage(uri)
-3. ChatViewModel calls ImageProcessor.resizeAndEncode(uri) → stores imageBytes in State
-   [ImageProcessor is called by ViewModel, NOT by Activity — MVVM boundary preserved]
+3. ChatViewModel stores URI in pendingImageUri state (ImageProcessor NOT called yet — encoding deferred to send time to avoid wasting memory if user cancels)
+   [ImageProcessor is called by ViewModel at sendPrompt(), NOT by Activity — MVVM boundary preserved]
 4. User types text + taps Send → ChatActivity calls ChatViewModel.sendPrompt(text)
-5. ChatViewModel calls InferenceManager.infer(prompt, imageBytes)
-6. InferenceManager calls LlamaCppBridge.infer(prompt, imageBytes)
-7. LlamaCppBridge calls vision encoder (mmproj) + llama_decode()
-8. Decoded tokens returned to InferenceManager
-9. InferenceManager sends result to ChatViewModel
-10. ChatViewModel updates StateFlow, UI displays response
-11. ChatRepository saves history to Room
+5. ChatViewModel calls ImageProcessor.resizeAndEncode(pendingImageUri) → imageBytes
+6. ChatViewModel calls InferenceManager.infer(prompt, imageBytes)
+7. InferenceManager calls LlamaCppBridge.infer(prompt, imageBytes)
+8. LlamaCppBridge calls vision encoder (mmproj) + llama_decode()
+9. Decoded tokens returned to InferenceManager
+10. InferenceManager sends result to ChatViewModel
+11. ChatViewModel updates StateFlow, UI displays response
+12. ChatRepository saves history to Room
 ```
 
 ### 4.3 Lifecycle Management Flow
@@ -178,10 +178,11 @@
 1. Activity.onCreate() → ChatViewModel created by ViewModelProvider
 2. ChatViewModel.init{} → InferenceManager instantiated (ViewModel-scoped)
 3. Activity.onStart() → ChatViewModel.loadHistory()
-4. Activity.onPause() → ChatViewModel.cancelOngoingInference()
-5. Activity.onDestroy() → ViewModel.onCleared() → InferenceManager.cleanup()
-6. InferenceManager.cleanup() → LlamaCppBridge.unloadModel()
+4. Activity.onDestroy() → ViewModel.onCleared() → InferenceManager.cleanup()
+5. InferenceManager.cleanup() → LlamaCppBridge.unloadModel()
 ```
+
+> **Why NOT cancel on onPause():** Inference should continue when user temporarily backgrounds the app (e.g., checks another app). Cancellation only on `onCleared()` ensures the model is stopped only when the ViewModel is actually destroyed.
 
 ---
 

@@ -1,7 +1,7 @@
 # Ethical and Technical Risk Management
 ## AIRI Neuron — Phase 1: On-Device Multimodal SLM
 
-**Version:** 1.1  
+**Version:** 1.2  
 **Date:** 2026-08-16  
 **Standard:** ISO/IEC 42001 (AI Management System)  
 

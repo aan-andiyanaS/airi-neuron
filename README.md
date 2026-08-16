@@ -114,6 +114,15 @@ adb push minicpm-v-4.6.Q4_K_M.gguf /sdcard/
 
 > File `.gguf` dikecualikan dari git. Push model ke device secara langsung.
 
+### 5. Build & install debug APK ke device
+
+```powershell
+.\gradlew.bat installDebug
+# Atau build APK saja:
+.\gradlew.bat assembleDebug
+# Output: app/build/outputs/apk/debug/app-debug.apk
+```
+
 ---
 
 ## Arsitektur
@@ -166,11 +175,11 @@ app/src/main/cpp/               # C++ NDK source [Task 6]
 
 | Dokumen | Deskripsi | Versi |
 |---------|-----------|-------|
-| [01\_SRS\_Phase1.md](docs/01_SRS_Phase1.md) | Software Requirements Specification | 1.1 |
-| [02\_System\_Architecture.md](docs/02_System_Architecture.md) | Arsitektur sistem (MVVM, JNI, data flow) | 1.1 |
-| [03\_System\_Prompt\_AI.md](docs/03_System_Prompt_AI.md) | Panduan generate kode dengan AI | 1.1 |
-| [04\_Risk\_Management.md](docs/04_Risk_Management.md) | Manajemen risiko teknis & etika | 1.1 |
-| [05\_Testing\_Rules.md](docs/05_Testing_Rules.md) | Aturan pengujian, target coverage, CI | 1.1 |
+| [01\_SRS\_Phase1.md](docs/01_SRS_Phase1.md) | Software Requirements Specification | 1.2 |
+| [02\_System\_Architecture.md](docs/02_System_Architecture.md) | Arsitektur sistem (MVVM, JNI, data flow) | 1.2 |
+| [03\_System\_Prompt\_AI.md](docs/03_System_Prompt_AI.md) | Panduan generate kode dengan AI | 1.2 |
+| [04\_Risk\_Management.md](docs/04_Risk_Management.md) | Manajemen risiko teknis & etika | 1.2 |
+| [05\_Testing\_Rules.md](docs/05_Testing_Rules.md) | Aturan pengujian, target coverage, CI | 1.2 |
 | [ISSUES.md](ISSUES.md) | Catatan issues, bug fixes, dan changelog | — |
 
 ---
