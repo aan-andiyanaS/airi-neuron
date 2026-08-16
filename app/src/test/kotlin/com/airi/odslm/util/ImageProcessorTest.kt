@@ -28,30 +28,30 @@ class ImageProcessorTest {
     }
 
     @Test
-    fun `resizeAndEncode returns null when URI stream cannot be opened`() {
+    fun `processImage returns null when URI stream cannot be opened`() {
         every { mockResolver.openInputStream(mockUri) } returns null
 
-        val result = ImageProcessor.resizeAndEncode(mockContext, mockUri)
+        val result = ImageProcessor.processImage(mockContext, mockUri)
 
         assertNull(result, "Should return null when ContentResolver returns null stream")
     }
 
     @Test
-    fun `resizeAndEncode returns null when stream contains non-image bytes`() {
+    fun `processImage returns null when stream contains non-image bytes`() {
         // BitmapFactory.decodeStream returns null for non-image data
         every { mockResolver.openInputStream(mockUri) } returns ByteArrayInputStream(ByteArray(16))
 
-        val result = ImageProcessor.resizeAndEncode(mockContext, mockUri)
+        val result = ImageProcessor.processImage(mockContext, mockUri)
 
         // BitmapFactory returns null → ImageProcessor propagates null
         assertNull(result, "Should return null when stream is not a valid image")
     }
 
     @Test
-    fun `resizeAndEncode returns null on ContentResolver exception`() {
+    fun `processImage returns null on ContentResolver exception`() {
         every { mockResolver.openInputStream(mockUri) } throws SecurityException("Permission denied")
 
-        val result = ImageProcessor.resizeAndEncode(mockContext, mockUri)
+        val result = ImageProcessor.processImage(mockContext, mockUri)
 
         assertNull(result, "Should return null (not throw) on SecurityException")
     }

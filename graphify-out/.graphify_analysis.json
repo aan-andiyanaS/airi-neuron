@@ -1,0 +1,391 @@
+{
+  "communities": {
+    "0": [
+      "app_src_main_cpp_llamacppbridge",
+      "app_src_main_cpp_llamacppbridge_decodebatch",
+      "app_src_main_cpp_llamacppbridge_java_com_airi_odslm_jni_llamacppbridge_infer",
+      "app_src_main_cpp_llamacppbridge_java_com_airi_odslm_jni_llamacppbridge_loadmodel",
+      "app_src_main_cpp_llamacppbridge_java_com_airi_odslm_jni_llamacppbridge_unloadmodel",
+      "app_src_main_cpp_llamacppbridge_jni_onload",
+      "app_src_main_cpp_llamacppbridge_jni_onunload",
+      "app_src_main_cpp_llamacppbridge_nativecontext",
+      "app_src_main_cpp_llamacppbridge_nativecontext_ctx",
+      "app_src_main_cpp_llamacppbridge_nativecontext_mctx",
+      "app_src_main_cpp_llamacppbridge_nativecontext_model",
+      "app_src_main_cpp_llamacppbridge_nativecontext_mutex",
+      "app_src_main_cpp_llamacppbridge_sampleresponse",
+      "app_src_main_cpp_llamacppbridge_tokenize",
+      "javavm",
+      "jbytearray",
+      "jint",
+      "jlong",
+      "jnienv",
+      "jniexport",
+      "jobject",
+      "jstring",
+      "llama_context",
+      "llama_model",
+      "llama_token",
+      "mtmd_context",
+      "string",
+      "vector"
+    ],
+    "1": [
+      "app_src_androidtest_kotlin_com_airi_odslm_chatrepositorytest",
+      "app_src_androidtest_kotlin_com_airi_odslm_chatrepositorytest_chatrepositorytest",
+      "app_src_androidtest_kotlin_com_airi_odslm_chatrepositorytest_chatrepositorytest_allmessages_emits_empty_list_when_database_is_empty",
+      "app_src_androidtest_kotlin_com_airi_odslm_chatrepositorytest_chatrepositorytest_clearhistory_removes_all_messages",
+      "app_src_androidtest_kotlin_com_airi_odslm_chatrepositorytest_chatrepositorytest_closedatabase",
+      "app_src_androidtest_kotlin_com_airi_odslm_chatrepositorytest_chatrepositorytest_createdatabase",
+      "app_src_androidtest_kotlin_com_airi_odslm_chatrepositorytest_chatrepositorytest_messages_are_ordered_by_timestamp_ascending",
+      "app_src_androidtest_kotlin_com_airi_odslm_chatrepositorytest_chatrepositorytest_savemessage_inserts_message_and_getallmessages_emits_it",
+      "app_src_androidtest_kotlin_com_airi_odslm_chatrepositorytest_chatrepositorytest_savemessage_with_assistant_role_stores_correct_role",
+      "app_src_androidtest_kotlin_com_airi_odslm_chatrepositorytest_chatrepositorytest_savemessage_with_empty_content_returns_success",
+      "app_src_androidtest_kotlin_com_airi_odslm_chatrepositorytest_chatrepositorytest_savemessage_with_imagepath_stores_path_correctly",
+      "app_src_androidtest_kotlin_com_airi_odslm_chatrepositorytest_chatrepositorytest_savemessage_with_very_long_content_stores_correctly",
+      "app_src_main_kotlin_com_airi_odslm_data_chatentity",
+      "app_src_main_kotlin_com_airi_odslm_data_chatentity_chatentity",
+      "app_src_main_kotlin_com_airi_odslm_data_chatentity_messagerole",
+      "app_src_main_kotlin_com_airi_odslm_data_chatrepository",
+      "app_src_main_kotlin_com_airi_odslm_data_chatrepository_chatrepository",
+      "app_src_main_kotlin_com_airi_odslm_data_chatrepository_chatrepository_clearhistory",
+      "app_src_main_kotlin_com_airi_odslm_data_chatrepository_chatrepository_savemessage",
+      "app_src_main_kotlin_com_airi_odslm_data_chatrepository_kt_flow",
+      "app_src_main_kotlin_com_airi_odslm_viewmodel_chatviewmodel_chatviewmodel_sendprompt",
+      "result"
+    ],
+    "2": [
+      "app_src_main_kotlin_com_airi_odslm_ui_components_chatbubble",
+      "app_src_main_kotlin_com_airi_odslm_ui_components_chatbubble_chatbubble",
+      "app_src_main_kotlin_com_airi_odslm_ui_screens_chatscreen",
+      "app_src_main_kotlin_com_airi_odslm_ui_screens_chatscreen_chatscreen",
+      "app_src_main_kotlin_com_airi_odslm_viewmodel_chatuistate",
+      "app_src_main_kotlin_com_airi_odslm_viewmodel_chatuistate_chatmessage",
+      "app_src_main_kotlin_com_airi_odslm_viewmodel_chatuistate_chatuistate",
+      "app_src_main_kotlin_com_airi_odslm_viewmodel_chatviewmodel",
+      "app_src_main_kotlin_com_airi_odslm_viewmodel_chatviewmodel_chatviewmodel",
+      "app_src_main_kotlin_com_airi_odslm_viewmodel_chatviewmodel_chatviewmodel_attachimage",
+      "app_src_main_kotlin_com_airi_odslm_viewmodel_chatviewmodel_chatviewmodel_clearerror",
+      "app_src_main_kotlin_com_airi_odslm_viewmodel_chatviewmodel_chatviewmodel_clearpendingimage",
+      "app_src_main_kotlin_com_airi_odslm_viewmodel_chatviewmodel_chatviewmodel_oncleared",
+      "app_src_main_kotlin_com_airi_odslm_viewmodel_chatviewmodel_factory",
+      "app_src_main_kotlin_com_airi_odslm_viewmodel_chatviewmodel_factory_create",
+      "app_src_main_kotlin_com_airi_odslm_viewmodel_chatviewmodel_kt_uri",
+      "app_src_test_kotlin_com_airi_odslm_chatviewmodeltest_chatviewmodeltest_setup",
+      "stateflow",
+      "t",
+      "viewmodel",
+      "viewmodelprovider"
+    ],
+    "3": [
+      "app_src_main_kotlin_com_airi_odslm_viewmodel_inferencemanager",
+      "app_src_main_kotlin_com_airi_odslm_viewmodel_inferencemanager_inferencemanager",
+      "app_src_main_kotlin_com_airi_odslm_viewmodel_inferencemanager_inferencemanager_infer",
+      "app_src_main_kotlin_com_airi_odslm_viewmodel_inferencemanager_inferencemanager_loadmodel",
+      "app_src_main_kotlin_com_airi_odslm_viewmodel_inferencemanager_inferencemanager_unloadmodel",
+      "app_src_main_kotlin_com_airi_odslm_viewmodel_inferencemanager_kt_uri",
+      "app_src_test_kotlin_com_airi_odslm_chatviewmodeltest",
+      "app_src_test_kotlin_com_airi_odslm_chatviewmodeltest_chatviewmodeltest",
+      "app_src_test_kotlin_com_airi_odslm_chatviewmodeltest_chatviewmodeltest_attachimage_stores_uri_in_pendingimageuri",
+      "app_src_test_kotlin_com_airi_odslm_chatviewmodeltest_chatviewmodeltest_clearerror_removes_error_from_state",
+      "app_src_test_kotlin_com_airi_odslm_chatviewmodeltest_chatviewmodeltest_clearpendingimage_removes_uri_from_state",
+      "app_src_test_kotlin_com_airi_odslm_chatviewmodeltest_chatviewmodeltest_initial_state_has_empty_messages_and_is_not_loading",
+      "app_src_test_kotlin_com_airi_odslm_chatviewmodeltest_chatviewmodeltest_sendprompt_clears_pendingimageuri_after_sending",
+      "app_src_test_kotlin_com_airi_odslm_chatviewmodeltest_chatviewmodeltest_sendprompt_saves_message_with_correct_user_role",
+      "app_src_test_kotlin_com_airi_odslm_chatviewmodeltest_chatviewmodeltest_sendprompt_saves_user_message_and_model_response_to_repository",
+      "app_src_test_kotlin_com_airi_odslm_chatviewmodeltest_chatviewmodeltest_sendprompt_sets_isloading_true_then_false",
+      "app_src_test_kotlin_com_airi_odslm_chatviewmodeltest_chatviewmodeltest_sendprompt_uses_outputfilter_and_falls_back_on_dangerous_content",
+      "app_src_test_kotlin_com_airi_odslm_chatviewmodeltest_chatviewmodeltest_sendprompt_with_blank_text_does_nothing",
+      "app_src_test_kotlin_com_airi_odslm_chatviewmodeltest_chatviewmodeltest_sendprompt_with_too_long_text_sets_error_and_aborts",
+      "app_src_test_kotlin_com_airi_odslm_chatviewmodeltest_chatviewmodeltest_teardown"
+    ],
+    "4": [
+      "app_src_main_kotlin_com_airi_odslm_ui_chatactivity",
+      "app_src_main_kotlin_com_airi_odslm_ui_chatactivity_chatactivity",
+      "app_src_main_kotlin_com_airi_odslm_ui_chatactivity_chatactivity_oncreate",
+      "app_src_main_kotlin_com_airi_odslm_ui_components_bottomnavbar",
+      "app_src_main_kotlin_com_airi_odslm_ui_components_bottomnavbar_appdestination",
+      "app_src_main_kotlin_com_airi_odslm_ui_components_bottomnavbar_appdestination_character",
+      "app_src_main_kotlin_com_airi_odslm_ui_components_bottomnavbar_appdestination_chat",
+      "app_src_main_kotlin_com_airi_odslm_ui_components_bottomnavbar_appdestination_library",
+      "app_src_main_kotlin_com_airi_odslm_ui_components_bottomnavbar_bottomnavbar",
+      "app_src_main_kotlin_com_airi_odslm_ui_screens_characterscreen",
+      "app_src_main_kotlin_com_airi_odslm_ui_screens_characterscreen_characterscreen",
+      "app_src_main_kotlin_com_airi_odslm_ui_screens_libraryscreen",
+      "app_src_main_kotlin_com_airi_odslm_ui_screens_libraryscreen_libraryscreen",
+      "app_src_main_kotlin_com_airi_odslm_ui_screens_mainapp",
+      "app_src_main_kotlin_com_airi_odslm_ui_screens_mainapp_mainapp",
+      "app_src_main_kotlin_com_airi_odslm_ui_theme_theme",
+      "app_src_main_kotlin_com_airi_odslm_ui_theme_theme_airitheme",
+      "bundle",
+      "componentactivity"
+    ],
+    "5": [
+      "app_src_main_kotlin_com_airi_odslm_data_appdatabase",
+      "app_src_main_kotlin_com_airi_odslm_data_appdatabase_appdatabase",
+      "app_src_main_kotlin_com_airi_odslm_data_appdatabase_appdatabase_chatdao",
+      "app_src_main_kotlin_com_airi_odslm_data_appdatabase_builddatabase",
+      "app_src_main_kotlin_com_airi_odslm_data_appdatabase_getinstance",
+      "app_src_main_kotlin_com_airi_odslm_data_appdatabase_kt_context",
+      "app_src_main_kotlin_com_airi_odslm_data_chatdao",
+      "app_src_main_kotlin_com_airi_odslm_data_chatdao_chatdao",
+      "app_src_main_kotlin_com_airi_odslm_data_chatdao_chatdao_clearall",
+      "app_src_main_kotlin_com_airi_odslm_data_chatdao_chatdao_getallmessages",
+      "app_src_main_kotlin_com_airi_odslm_data_chatdao_chatdao_insertmessage",
+      "app_src_main_kotlin_com_airi_odslm_data_chatdao_kt_flow",
+      "roomdatabase"
+    ],
+    "6": [
+      "app_src_main_kotlin_com_airi_odslm_util_imageprocessor",
+      "app_src_main_kotlin_com_airi_odslm_util_imageprocessor_imageprocessor",
+      "app_src_main_kotlin_com_airi_odslm_util_imageprocessor_imageprocessor_processimage",
+      "app_src_main_kotlin_com_airi_odslm_util_imageprocessor_imageprocessor_resize",
+      "app_src_main_kotlin_com_airi_odslm_util_imageprocessor_kt_bytearray",
+      "app_src_main_kotlin_com_airi_odslm_util_imageprocessor_kt_context",
+      "app_src_main_kotlin_com_airi_odslm_util_imageprocessor_kt_uri",
+      "bitmap"
+    ],
+    "7": [
+      "app_src_test_kotlin_com_airi_odslm_util_imageprocessortest",
+      "app_src_test_kotlin_com_airi_odslm_util_imageprocessortest_imageprocessortest",
+      "app_src_test_kotlin_com_airi_odslm_util_imageprocessortest_imageprocessortest_processimage_returns_null_on_contentresolver_exception",
+      "app_src_test_kotlin_com_airi_odslm_util_imageprocessortest_imageprocessortest_processimage_returns_null_when_stream_contains_non_image_bytes",
+      "app_src_test_kotlin_com_airi_odslm_util_imageprocessortest_imageprocessortest_processimage_returns_null_when_uri_stream_cannot_be_opened",
+      "app_src_test_kotlin_com_airi_odslm_util_imageprocessortest_kt_context",
+      "app_src_test_kotlin_com_airi_odslm_util_imageprocessortest_kt_uri",
+      "contentresolver"
+    ],
+    "8": [
+      "app_src_main_kotlin_com_airi_odslm_jni_llamacppbridge",
+      "app_src_main_kotlin_com_airi_odslm_jni_llamacppbridge_kt_bytearray",
+      "app_src_main_kotlin_com_airi_odslm_jni_llamacppbridge_llamacppbridge",
+      "app_src_main_kotlin_com_airi_odslm_jni_llamacppbridge_llamacppbridge_infer",
+      "app_src_main_kotlin_com_airi_odslm_jni_llamacppbridge_llamacppbridge_loadmodel",
+      "app_src_main_kotlin_com_airi_odslm_jni_llamacppbridge_llamacppbridge_unloadmodel"
+    ],
+    "9": [
+      "app_src_main_kotlin_com_airi_odslm_util_inputvalidator",
+      "app_src_main_kotlin_com_airi_odslm_util_inputvalidator_inputvalidator",
+      "app_src_main_kotlin_com_airi_odslm_util_inputvalidator_inputvalidator_validateimage",
+      "app_src_main_kotlin_com_airi_odslm_util_inputvalidator_inputvalidator_validatetext",
+      "app_src_main_kotlin_com_airi_odslm_util_inputvalidator_kt_context",
+      "app_src_main_kotlin_com_airi_odslm_util_inputvalidator_kt_uri"
+    ],
+    "10": [
+      "app_src_test_kotlin_com_airi_odslm_util_outputfiltertest",
+      "app_src_test_kotlin_com_airi_odslm_util_outputfiltertest_outputfiltertest",
+      "app_src_test_kotlin_com_airi_odslm_util_outputfiltertest_outputfiltertest_issafe_returns_false_for_dangerous_keywords",
+      "app_src_test_kotlin_com_airi_odslm_util_outputfiltertest_outputfiltertest_issafe_returns_false_regardless_of_case",
+      "app_src_test_kotlin_com_airi_odslm_util_outputfiltertest_outputfiltertest_issafe_returns_true_for_empty_or_blank_text",
+      "app_src_test_kotlin_com_airi_odslm_util_outputfiltertest_outputfiltertest_issafe_returns_true_for_safe_content"
+    ],
+    "11": [
+      "app_src_main_kotlin_com_airi_odslm_util_performancemonitor",
+      "app_src_main_kotlin_com_airi_odslm_util_performancemonitor_performancemonitor",
+      "app_src_main_kotlin_com_airi_odslm_util_performancemonitor_performancemonitor_logthermalstatus",
+      "app_src_main_kotlin_com_airi_odslm_util_performancemonitor_performancemonitor_logtotaltime",
+      "app_src_main_kotlin_com_airi_odslm_util_performancemonitor_performancemonitor_logttft"
+    ],
+    "12": [
+      "app_src_test_kotlin_com_airi_odslm_util_inputvalidatortest",
+      "app_src_test_kotlin_com_airi_odslm_util_inputvalidatortest_inputvalidatortest",
+      "app_src_test_kotlin_com_airi_odslm_util_inputvalidatortest_inputvalidatortest_validatetext_returns_false_for_blank_text",
+      "app_src_test_kotlin_com_airi_odslm_util_inputvalidatortest_inputvalidatortest_validatetext_returns_false_for_text_exceeding_max_length",
+      "app_src_test_kotlin_com_airi_odslm_util_inputvalidatortest_inputvalidatortest_validatetext_returns_true_for_valid_text"
+    ],
+    "13": [
+      "gradlew",
+      "gradlew__entry",
+      "gradlew_die",
+      "gradlew_warn"
+    ],
+    "14": [
+      "app_src_main_kotlin_com_airi_odslm_util_outputfilter",
+      "app_src_main_kotlin_com_airi_odslm_util_outputfilter_outputfilter",
+      "app_src_main_kotlin_com_airi_odslm_util_outputfilter_outputfilter_issafe"
+    ],
+    "15": [
+      "app_build_gradle"
+    ],
+    "16": [
+      "app_src_main_kotlin_com_airi_odslm_ui_theme_color"
+    ],
+    "17": [
+      "app_src_main_kotlin_com_airi_odslm_ui_theme_type"
+    ],
+    "18": [
+      "build_gradle"
+    ],
+    "19": [
+      "settings_gradle"
+    ]
+  },
+  "cohesion": {
+    "0": 0.13756613756613756,
+    "1": 0.1341991341991342,
+    "2": 0.10476190476190476,
+    "3": 0.1,
+    "4": 0.1111111111111111,
+    "5": 0.20512820512820512,
+    "6": 0.2857142857142857,
+    "7": 0.25,
+    "8": 0.3333333333333333,
+    "9": 0.3333333333333333,
+    "10": 0.3333333333333333,
+    "11": 0.4,
+    "12": 0.4,
+    "13": 0.8333333333333334,
+    "14": 0.6666666666666666,
+    "15": 1.0,
+    "16": 1.0,
+    "17": 1.0,
+    "18": 1.0,
+    "19": 1.0
+  },
+  "gods": [
+    {
+      "id": "app_src_test_kotlin_com_airi_odslm_chatviewmodeltest_chatviewmodeltest",
+      "label": "ChatViewModelTest",
+      "degree": 17
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_viewmodel_chatviewmodel_chatviewmodel",
+      "label": "ChatViewModel",
+      "degree": 16
+    },
+    {
+      "id": "app_src_androidtest_kotlin_com_airi_odslm_chatrepositorytest_chatrepositorytest",
+      "label": "ChatRepositoryTest",
+      "degree": 14
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_data_chatentity_chatentity",
+      "label": "ChatEntity",
+      "degree": 13
+    },
+    {
+      "id": "app_src_main_cpp_llamacppbridge_java_com_airi_odslm_jni_llamacppbridge_infer",
+      "label": "Java_com_airi_odslm_jni_LlamaCppBridge_infer()",
+      "degree": 11
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_data_chatrepository_chatrepository",
+      "label": "ChatRepository",
+      "degree": 9
+    },
+    {
+      "id": "app_src_main_cpp_llamacppbridge_nativecontext",
+      "label": "NativeContext",
+      "degree": 8
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_ui_screens_mainapp_mainapp",
+      "label": "MainApp()",
+      "degree": 7
+    },
+    {
+      "id": "app_src_test_kotlin_com_airi_odslm_util_imageprocessortest_imageprocessortest",
+      "label": "ImageProcessorTest",
+      "degree": 7
+    },
+    {
+      "id": "app_src_main_cpp_llamacppbridge_tokenize",
+      "label": "tokenize()",
+      "degree": 6
+    }
+  ],
+  "surprises": [
+    {
+      "source": "MainApp()",
+      "target": "CharacterScreen()",
+      "source_files": [
+        "app/src/main/kotlin/com/airi/odslm/ui/screens/MainApp.kt",
+        "app/src/main/kotlin/com/airi/odslm/ui/screens/CharacterScreen.kt"
+      ],
+      "confidence": "INFERRED",
+      "relation": "calls",
+      "why": "inferred connection - not explicitly stated in source; peripheral node `CharacterScreen()` unexpectedly reaches hub `MainApp()`"
+    },
+    {
+      "source": "MainApp()",
+      "target": "ChatScreen()",
+      "source_files": [
+        "app/src/main/kotlin/com/airi/odslm/ui/screens/MainApp.kt",
+        "app/src/main/kotlin/com/airi/odslm/ui/screens/ChatScreen.kt"
+      ],
+      "confidence": "INFERRED",
+      "relation": "calls",
+      "why": "inferred connection - not explicitly stated in source; bridges separate communities"
+    },
+    {
+      "source": "MainApp()",
+      "target": "LibraryScreen()",
+      "source_files": [
+        "app/src/main/kotlin/com/airi/odslm/ui/screens/MainApp.kt",
+        "app/src/main/kotlin/com/airi/odslm/ui/screens/LibraryScreen.kt"
+      ],
+      "confidence": "INFERRED",
+      "relation": "calls",
+      "why": "inferred connection - not explicitly stated in source; peripheral node `LibraryScreen()` unexpectedly reaches hub `MainApp()`"
+    },
+    {
+      "source": "ChatRepositoryTest",
+      "target": "AppDatabase",
+      "source_files": [
+        "app/src/androidTest/kotlin/com/airi/odslm/ChatRepositoryTest.kt",
+        "app/src/main/kotlin/com/airi/odslm/data/AppDatabase.kt"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "bridges separate communities"
+    },
+    {
+      "source": "ChatRepositoryTest",
+      "target": "ChatDao",
+      "source_files": [
+        "app/src/androidTest/kotlin/com/airi/odslm/ChatRepositoryTest.kt",
+        "app/src/main/kotlin/com/airi/odslm/data/ChatDao.kt"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "bridges separate communities"
+    }
+  ],
+  "questions": [
+    {
+      "type": "bridge_node",
+      "question": "Why does `ChatViewModel` connect `Community 2` to `Community 1`, `Community 3`, `Community 4`?",
+      "why": "High betweenness centrality (0.154) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `ChatViewModelTest` connect `Community 3` to `Community 1`, `Community 2`?",
+      "why": "High betweenness centrality (0.108) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `ChatRepository` connect `Community 1` to `Community 2`, `Community 3`?",
+      "why": "High betweenness centrality (0.099) - this node is a cross-community bridge."
+    },
+    {
+      "type": "verify_inferred",
+      "question": "Are the 8 inferred relationships involving `ChatEntity` (e.g. with `.`clearHistory removes all messages`()` and `.`messages are ordered by timestamp ascending`()`) actually correct?",
+      "why": "`ChatEntity` has 8 INFERRED edges - model-reasoned connections that need verification."
+    },
+    {
+      "type": "isolated_nodes",
+      "question": "What connects `model`, `ctx`, `mctx` to the rest of the system?",
+      "why": "7 weakly-connected nodes found - possible documentation gaps or missing edges."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Community 0` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.13756613756613756 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Community 1` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.1341991341991342 - nodes in this community are weakly interconnected."
+    }
+  ]
+}

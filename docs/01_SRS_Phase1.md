@@ -40,7 +40,7 @@ This application is a proof-of-concept for validating on-device multimodal infer
 | Class | Description |
 |---|---|
 | Developer | Performs testing and performance validation |
-| End User (thesis) | Visually impaired users who will use the navigation application (later phase) |
+| End User | Pengguna umum yang membutuhkan asisten AI luring (offline) terpadu |
 
 ### 2.3 Operating Environment
 - **OS:** Android 10+ (API 29+)

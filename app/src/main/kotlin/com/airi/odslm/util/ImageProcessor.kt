@@ -11,7 +11,7 @@ import java.io.ByteArrayOutputStream
  *
  * Responsibilities:
  * - Resize bitmap to max [MAX_DIMENSION] on the longest edge (preserving aspect ratio).
- * - Encode to JPEG ByteArray for JNI transfer.
+ * - Extract raw RGBA byte array for JNI transfer (mtmd format).
  *
  * Called from [ChatViewModel], not from Activity (MVVM boundary).
  *
@@ -26,20 +26,34 @@ object ImageProcessor {
     private const val JPEG_QUALITY = 85
 
     /**
-     * Opens [uri], resizes to fit within [MAX_DIMENSION]×[MAX_DIMENSION], and encodes as JPEG.
+     * Opens [uri], resizes to fit within [MAX_DIMENSION]×[MAX_DIMENSION], and extracts RGBA bytes.
      *
-     * @return JPEG bytes, or null if the URI cannot be opened or decoded.
+     * @return Pair of RGBA byte array and dimensions (width, height), or null on error.
      */
-    fun resizeAndEncode(context: Context, uri: Uri): ByteArray? = runCatching {
+    fun processImage(context: Context, uri: Uri): Pair<ByteArray, Pair<Int, Int>>? = runCatching {
         val inputStream = context.contentResolver.openInputStream(uri) ?: return null
-        val original = BitmapFactory.decodeStream(inputStream)
+        
+        // Ensure we get ARGB_8888 for consistent 4-byte RGBA extraction
+        val options = BitmapFactory.Options().apply {
+            inPreferredConfig = Bitmap.Config.ARGB_8888
+        }
+        val original = BitmapFactory.decodeStream(inputStream, null, options) ?: return null
         inputStream.close()
 
         val resized = resize(original)
-        encode(resized).also {
-            if (resized !== original) resized.recycle()
-            original.recycle()
-        }
+        
+        // Extract raw RGBA bytes
+        val size = resized.rowBytes * resized.height
+        val byteBuffer = java.nio.ByteBuffer.allocate(size)
+        resized.copyPixelsToBuffer(byteBuffer)
+        
+        val width = resized.width
+        val height = resized.height
+        
+        if (resized !== original) resized.recycle()
+        original.recycle()
+        
+        Pair(byteBuffer.array(), Pair(width, height))
     }.getOrNull()
 
     /** Scales [bitmap] down so neither dimension exceeds [MAX_DIMENSION]. No-op if already fits. */
@@ -51,12 +65,5 @@ object ImageProcessor {
         val targetWidth = (bitmap.width * scale).toInt()
         val targetHeight = (bitmap.height * scale).toInt()
         return Bitmap.createScaledBitmap(bitmap, targetWidth, targetHeight, true)
-    }
-
-    /** Encodes [bitmap] as JPEG bytes. */
-    private fun encode(bitmap: Bitmap): ByteArray {
-        val stream = ByteArrayOutputStream()
-        bitmap.compress(Bitmap.CompressFormat.JPEG, JPEG_QUALITY, stream)
-        return stream.toByteArray()
     }
 }

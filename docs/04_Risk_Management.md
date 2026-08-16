@@ -41,8 +41,8 @@
 
 | ID | Risk | Impact | Probability | Mitigation | Owner |
 |---|---|---|---|---|---|
-| E1 | Model produces harmful output (misinformation, hate speech) | User receives unsafe response, potential danger for navigation app for visually impaired | Medium | Add simple output filter (regex for dangerous keywords), fallback to safe response, log filtered output for debugging | Developer |
-| E2 | Model hallucinates facts (e.g., wrong navigation directions) | Visually impaired user could get lost or hurt if they trust model output | High | **Do not use model output for critical navigation in phase 1** — manually validate every navigation output, add disclaimer "results may be inaccurate" | Developer |
+| E1 | Model produces harmful output (misinformation, hate speech) | User receives unsafe response | Medium | Add simple output filter (regex for dangerous keywords), fallback to safe response, log filtered output for debugging | Developer |
+| E2 | Model hallucinates facts | User could act on incorrect information | High | Add disclaimer "results may be inaccurate" | Developer |
 | E3 | Bias in model output (e.g., gender, race stereotypes) | Unintentional discrimination, user feels uncomfortable | Medium | Choose model with audited bias (MiniCPM-V 4.6 relatively neutral), monitor output for bias, document model limitations | Developer |
 
 ### 2.2 Privacy and Data Security
@@ -69,7 +69,7 @@
 
 | Priority | Risk IDs | Reason |
 |---|---|---|
-| **High** | T1, T4, E2 | Direct impact on app stability and user safety (visually impaired navigation) |
+| **High** | T1, T4, E2 | Direct impact on app stability and user safety |
 | **Medium** | T2, T3, T5, T7, E1, E3, E4 | Impact on UX and privacy, but not immediately dangerous |
 | **Low** | T6, T8, T9, E5, E6, E7, E8, E9 | Low impact or small probability, but still need mitigation |
 

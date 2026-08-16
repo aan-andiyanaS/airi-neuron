@@ -12,6 +12,7 @@ junit5Version = "5.10.3"
 mockkVersion = "1.13.12"
 coroutinesTestVersion = "1.8.1"
 leakcanaryVersion = "2.14"
+composeBomVersion = "2024.09.02"
 
 [libraries]
 # AndroidX Core
@@ -22,6 +23,16 @@ androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecyc
 androidx-recyclerview = { group = "androidx.recyclerview", name = "recyclerview", version = "1.3.2" }
 androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version = "2.1.4" }
 material = { group = "com.google.android.material", name = "material", version.ref = "materialVersion" }
+
+# Compose
+compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBomVersion" }
+compose-ui = { group = "androidx.compose.ui", name = "ui" }
+compose-ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+compose-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+compose-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+compose-material3 = { group = "androidx.compose.material3", name = "material3" }
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityVersion" }
+androidx-lifecycle-runtime-compose = { group = "androidx.lifecycle", name = "lifecycle-runtime-compose", version.ref = "lifecycleVersion" }
 
 # Room
 room-runtime = { group = "androidx.room", name = "room-runtime", version.ref = "roomVersion" }

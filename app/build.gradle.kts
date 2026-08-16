@@ -7,6 +7,7 @@ plugins {
 android {
     namespace = "com.airi.odslm"
     compileSdk = 34
+    ndkVersion = "25.2.9519653"
 
     defaultConfig {
         applicationId = "com.airi.odslm"
@@ -21,6 +22,19 @@ android {
         // ponytail: no x86/x86_64, no armeabi-v7a for Phase 1 PoC
         ndk {
             abiFilters += setOf("arm64-v8a")
+        }
+
+        // NDK / CMake build configuration (inside defaultConfig for per-variant cmake args)
+        externalNativeBuild {
+            cmake {
+                cppFlags += "-std=c++17"
+                // Exynos 990 = Cortex-A77 = ARMv8.2-A (NOT armv8.7a)
+                // dotprod = fused dot-product for Q4_K_M (big speedup on A77)
+                // fp16    = half-precision float arithmetic
+                // CPU-only: no GPU flags — Exynos 990 Vulkan driver unstable with llama.cpp
+                arguments += "-DANDROID_PLATFORM=android-29"
+                arguments += "-DANDROID_ARM_NEON=ON"
+            }
         }
     }
 
@@ -44,11 +58,21 @@ android {
         jvmTarget = "17"
     }
 
-    // JNI / NDK configuration — CMake will be configured in Task 5 (llama.cpp research gate)
-    // externalNativeBuild { cmake { path = file("src/main/cpp/CMakeLists.txt") } }
+    // JNI / NDK configuration — CMake path to LlamaCppBridge build
+    externalNativeBuild {
+        cmake {
+            path = file("src/main/cpp/CMakeLists.txt")
+            version = "3.22.1"
+        }
+    }
 
     buildFeatures {
         viewBinding = true
+        compose = true
+    }
+
+    composeOptions {
+        kotlinCompilerExtensionVersion = "1.5.15"
     }
 
     packaging {
@@ -76,6 +100,18 @@ dependencies {
     implementation(libs.androidx.constraintlayout)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
+
+    // Compose
+    val composeBom = platform(libs.compose.bom)
+    implementation(composeBom)
+    androidTestImplementation(composeBom)
+    implementation(libs.compose.ui)
+    implementation(libs.compose.ui.graphics)
+    implementation(libs.compose.ui.tooling.preview)
+    implementation(libs.compose.material3)
+    implementation(libs.androidx.activity.compose)
+    implementation(libs.androidx.lifecycle.runtime.compose)
+    debugImplementation(libs.compose.ui.tooling)
 
     // Room
     implementation(libs.room.runtime)

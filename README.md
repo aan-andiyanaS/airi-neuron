@@ -29,7 +29,7 @@ Proyek ini adalah **Phase 1 / PoC** — membuktikan bahwa model vision-language 
 
 - **Tujuan jangka pendek:** Proof of Concept — model SLM multimodal berjalan di Android
 - **Tujuan jangka panjang:** Menjadi inference engine untuk sistem AIRI yang lebih besar
-- **Use case target:** Asisten aksesibilitas offline untuk pengguna tunanetra
+- **Use case target:** Asisten AI offline terpadu untuk berbagai skenario harian
 
 ---
 
@@ -56,11 +56,12 @@ Proyek ini adalah **Phase 1 / PoC** — membuktikan bahwa model vision-language 
 | 🟢 Task 2: Data layer (Room) | ✅ Selesai | ChatEntity, ChatDao, AppDatabase, ChatRepository |
 | 🟢 Task 3: ChatViewModel + StateFlow | ✅ Selesai | sendPrompt, attachImage, clearError, Factory |
 | 🟢 Task 4: ChatActivity + RecyclerView | ✅ Selesai | activity_chat.xml, ChatAdapter, ImageProcessor, LeakCanary |
-| 🔵 Task 5: llama.cpp research \[GATE\] | 🚧 Berikutnya | Pin versi, konfirmasi pendekatan JNI |
-| ⚪ Task 6: JNI Bridge (LlamaCppBridge) | ⬜ Direncanakan | C++ NDK, LlamaCppBridge.kt + .cpp |
-| ⚪ Task 7: InferenceManager + wiring | ⬜ Direncanakan | Ganti TODO stubs di ChatViewModel |
-| ⚪ Task 8: Security layer | ⬜ Direncanakan | InputValidator, OutputFilter |
-| ⚪ Task 9: Performance monitoring | ⬜ Direncanakan | Thermal + memory monitoring |
+| 🟢 Task 5: llama.cpp research | ✅ Selesai | Pin versi, konfirmasi pendekatan JNI |
+| 🟢 Task 6: JNI Bridge (LlamaCppBridge) | ✅ Selesai | C++ NDK, LlamaCppBridge.kt + .cpp |
+| 🟢 Task 7: InferenceManager | ✅ Selesai | Integrasi JNI, Image Processor, State Management |
+| 🟢 Task 8: Security layer | ✅ Selesai | Input Validator, Output Filter |
+| 🟢 Task 9: Deployment & S20 Ultra Optimization | ✅ Selesai | JNI ABI filtering (`arm64-v8a` only) |
+| 🟢 Task 10: UI Polish | ✅ Selesai | Migrasi penuh ke Jetpack Compose + Material 3, tema warna sesuai desain Stitch, penghapusan XML |
 
 ---
 
@@ -105,14 +106,21 @@ git clone https://github.com/aan-andiyanaS/airi-neuron.git
 .\gradlew.bat lint
 ```
 
-### 4. Push model GGUF ke device (Task 7+)
+### 4. Download & Push Model GGUF ke Device
 
+Karena ini adalah model multimodal, Anda membutuhkan **2 file**:
+1. File model bahasa utama: `minicpm-v-4.6.Q4_K_M.gguf`
+2. File vision projector: `mmproj-model-f16.gguf`
+
+*(Catatan: Unduh file tersebut dari repository HuggingFace yang menyediakan versi GGUF untuk MiniCPM-V 4.6).*
+
+Setelah diunduh, kirim kedua file tersebut ke penyimpanan internal perangkat (`/sdcard/`):
 ```bash
 adb push minicpm-v-4.6.Q4_K_M.gguf /sdcard/
-# App memindahkan file ke internal storage saat pertama kali dibuka.
+adb push mmproj-model-f16.gguf /sdcard/
 ```
 
-> File `.gguf` dikecualikan dari git. Push model ke device secara langsung.
+> File `.gguf` sangat besar dan dikecualikan dari git. Anda harus mem-push model secara manual ke device.
 
 ### 5. Build & install debug APK ke device
 
@@ -190,7 +198,7 @@ app/src/main/cpp/               # C++ NDK source [Task 6]
 |-----------|---------|--------|
 | DI framework | ❌ Tidak ada (ViewModelProvider.Factory) | Single Activity, YAGNI |
 | Enkripsi DB | ❌ Tanpa SQLCipher di Phase 1 | Offline PoC, storage internal dilindungi OS |
-| UI toolkit | ❌ XML Layouts (bukan Compose) | Stabilitas lebih baik dengan NDK |
+| UI toolkit | ✅ Jetpack Compose + Material 3 | Migrasi penuh selesai di Task 10 |
 | ABI filter | `arm64-v8a` only | Target device Exynos 990 |
 | JNI approach | Ditentukan di Task 5 | `examples/llama.android` vs custom wrapper |
 | Thermal API | API 30+: `getThermalHeadroom()` / API 29: `BatteryManager.EXTRA_TEMPERATURE` | S20 Ultra min API 29 |

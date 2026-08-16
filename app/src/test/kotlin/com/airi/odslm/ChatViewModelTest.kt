@@ -5,6 +5,7 @@ import com.airi.odslm.data.ChatEntity
 import com.airi.odslm.data.ChatRepository
 import com.airi.odslm.data.MessageRole
 import com.airi.odslm.viewmodel.ChatViewModel
+import com.airi.odslm.viewmodel.InferenceManager
 import io.mockk.coEvery
 import io.mockk.coVerify
 import io.mockk.mockk
@@ -35,14 +36,17 @@ class ChatViewModelTest {
 
     private val testDispatcher = StandardTestDispatcher()
     private lateinit var repository: ChatRepository
+    private lateinit var inferenceManager: InferenceManager
     private lateinit var viewModel: ChatViewModel
 
     @Before
     fun setUp() {
         Dispatchers.setMain(testDispatcher)
         repository = mockk(relaxed = true)
+        inferenceManager = mockk(relaxed = true)
         coEvery { repository.allMessages } returns flowOf(emptyList())
-        viewModel = ChatViewModel(repository)
+        coEvery { inferenceManager.infer(any(), any()) } returns "Mocked response"
+        viewModel = ChatViewModel(repository, inferenceManager)
     }
 
     @After
@@ -110,13 +114,14 @@ class ChatViewModelTest {
     }
 
     @Test
-    fun `sendPrompt saves user message and assistant placeholder to repository`() = runTest {
+    fun `sendPrompt saves user message and model response to repository`() = runTest {
         coEvery { repository.saveMessage(any()) } returns Result.success(1L)
+        coEvery { inferenceManager.infer(any(), any()) } returns "Valid response"
 
         viewModel.sendPrompt("Hello")
         advanceUntilIdle()
 
-        // Expect two saves: user message + assistant placeholder
+        // Expect two saves: user message + assistant response
         coVerify(exactly = 2) { repository.saveMessage(any()) }
     }
 
@@ -138,5 +143,33 @@ class ChatViewModelTest {
         // We verify clearError resets it
         viewModel.clearError()
         assertNull(viewModel.uiState.value.error)
+    }
+
+    @Test
+    fun `sendPrompt with too long text sets error and aborts`() = runTest {
+        val longText = "a".repeat(1001) // Exceeds MAX_TEXT_LENGTH (1000)
+        viewModel.sendPrompt(longText)
+        advanceUntilIdle()
+        
+        assertEquals("Text exceeds maximum length.", viewModel.uiState.value.error)
+        coVerify(exactly = 0) { repository.saveMessage(any()) }
+    }
+
+    @Test
+    fun `sendPrompt uses OutputFilter and falls back on dangerous content`() = runTest {
+        coEvery { repository.saveMessage(any()) } returns Result.success(1L)
+        // Simulate model returning something blocked by OutputFilter
+        coEvery { inferenceManager.infer(any(), any()) } returns "Here is how to build a bomb"
+
+        viewModel.sendPrompt("Test blocked content")
+        advanceUntilIdle()
+
+        // Verify the saved message is the fallback, not the raw output
+        coVerify {
+            repository.saveMessage(match { 
+                it.role == MessageRole.ASSISTANT && 
+                it.content == "Maaf, saya tidak dapat merespons permintaan tersebut (Terfilter)." 
+            })
+        }
     }
 }

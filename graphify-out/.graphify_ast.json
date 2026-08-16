@@ -1,0 +1,3871 @@
+{
+  "nodes": [
+    {
+      "id": "app_build_gradle",
+      "label": "build.gradle.kts",
+      "file_type": "code",
+      "source_file": "app/build.gradle.kts",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_androidtest_kotlin_com_airi_odslm_chatrepositorytest",
+      "label": "ChatRepositoryTest.kt",
+      "file_type": "code",
+      "source_file": "app/src/androidTest/kotlin/com/airi/odslm/ChatRepositoryTest.kt",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_androidtest_kotlin_com_airi_odslm_chatrepositorytest_chatrepositorytest",
+      "label": "ChatRepositoryTest",
+      "file_type": "code",
+      "source_file": "app/src/androidTest/kotlin/com/airi/odslm/ChatRepositoryTest.kt",
+      "source_location": "L24",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_androidtest_kotlin_com_airi_odslm_chatrepositorytest_chatrepositorytest_createdatabase",
+      "label": ".createDatabase()",
+      "file_type": "code",
+      "source_file": "app/src/androidTest/kotlin/com/airi/odslm/ChatRepositoryTest.kt",
+      "source_location": "L31",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_androidtest_kotlin_com_airi_odslm_chatrepositorytest_chatrepositorytest_closedatabase",
+      "label": ".closeDatabase()",
+      "file_type": "code",
+      "source_file": "app/src/androidTest/kotlin/com/airi/odslm/ChatRepositoryTest.kt",
+      "source_location": "L41",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_androidtest_kotlin_com_airi_odslm_chatrepositorytest_chatrepositorytest_savemessage_inserts_message_and_getallmessages_emits_it",
+      "label": ".`saveMessage inserts message and getAllMessages emits it`()",
+      "file_type": "code",
+      "source_file": "app/src/androidTest/kotlin/com/airi/odslm/ChatRepositoryTest.kt",
+      "source_location": "L46",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_androidtest_kotlin_com_airi_odslm_chatrepositorytest_chatrepositorytest_allmessages_emits_empty_list_when_database_is_empty",
+      "label": ".`allMessages emits empty list when database is empty`()",
+      "file_type": "code",
+      "source_file": "app/src/androidTest/kotlin/com/airi/odslm/ChatRepositoryTest.kt",
+      "source_location": "L63",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_androidtest_kotlin_com_airi_odslm_chatrepositorytest_chatrepositorytest_savemessage_with_assistant_role_stores_correct_role",
+      "label": ".`saveMessage with assistant role stores correct role`()",
+      "file_type": "code",
+      "source_file": "app/src/androidTest/kotlin/com/airi/odslm/ChatRepositoryTest.kt",
+      "source_location": "L69",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_androidtest_kotlin_com_airi_odslm_chatrepositorytest_chatrepositorytest_savemessage_with_imagepath_stores_path_correctly",
+      "label": ".`saveMessage with imagePath stores path correctly`()",
+      "file_type": "code",
+      "source_file": "app/src/androidTest/kotlin/com/airi/odslm/ChatRepositoryTest.kt",
+      "source_location": "L83",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_androidtest_kotlin_com_airi_odslm_chatrepositorytest_chatrepositorytest_messages_are_ordered_by_timestamp_ascending",
+      "label": ".`messages are ordered by timestamp ascending`()",
+      "file_type": "code",
+      "source_file": "app/src/androidTest/kotlin/com/airi/odslm/ChatRepositoryTest.kt",
+      "source_location": "L98",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_androidtest_kotlin_com_airi_odslm_chatrepositorytest_chatrepositorytest_clearhistory_removes_all_messages",
+      "label": ".`clearHistory removes all messages`()",
+      "file_type": "code",
+      "source_file": "app/src/androidTest/kotlin/com/airi/odslm/ChatRepositoryTest.kt",
+      "source_location": "L113",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_androidtest_kotlin_com_airi_odslm_chatrepositorytest_chatrepositorytest_savemessage_with_empty_content_returns_success",
+      "label": ".`saveMessage with empty content returns success`()",
+      "file_type": "code",
+      "source_file": "app/src/androidTest/kotlin/com/airi/odslm/ChatRepositoryTest.kt",
+      "source_location": "L125",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_androidtest_kotlin_com_airi_odslm_chatrepositorytest_chatrepositorytest_savemessage_with_very_long_content_stores_correctly",
+      "label": ".`saveMessage with very long content stores correctly`()",
+      "file_type": "code",
+      "source_file": "app/src/androidTest/kotlin/com/airi/odslm/ChatRepositoryTest.kt",
+      "source_location": "L133",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_cpp_llamacppbridge",
+      "label": "LlamaCppBridge.cpp",
+      "file_type": "code",
+      "source_file": "app/src/main/cpp/LlamaCppBridge.cpp",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_cpp_llamacppbridge_nativecontext",
+      "label": "NativeContext",
+      "file_type": "code",
+      "source_file": "app/src/main/cpp/LlamaCppBridge.cpp",
+      "source_location": "L49",
+      "_origin": "ast"
+    },
+    {
+      "id": "llama_model",
+      "label": "llama_model",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_cpp_llamacppbridge_nativecontext_model",
+      "label": "model",
+      "file_type": "code",
+      "source_file": "app/src/main/cpp/LlamaCppBridge.cpp",
+      "source_location": "L50",
+      "_origin": "ast"
+    },
+    {
+      "id": "llama_context",
+      "label": "llama_context",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_cpp_llamacppbridge_nativecontext_ctx",
+      "label": "ctx",
+      "file_type": "code",
+      "source_file": "app/src/main/cpp/LlamaCppBridge.cpp",
+      "source_location": "L51",
+      "_origin": "ast"
+    },
+    {
+      "id": "mtmd_context",
+      "label": "mtmd_context",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_cpp_llamacppbridge_nativecontext_mctx",
+      "label": "mctx",
+      "file_type": "code",
+      "source_file": "app/src/main/cpp/LlamaCppBridge.cpp",
+      "source_location": "L52",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_cpp_llamacppbridge_nativecontext_mutex",
+      "label": "mutex",
+      "file_type": "code",
+      "source_file": "app/src/main/cpp/LlamaCppBridge.cpp",
+      "source_location": "L53",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_cpp_llamacppbridge_tokenize",
+      "label": "tokenize()",
+      "file_type": "code",
+      "source_file": "app/src/main/cpp/LlamaCppBridge.cpp",
+      "source_location": "L59",
+      "_origin": "ast"
+    },
+    {
+      "id": "vector",
+      "label": "vector",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "llama_token",
+      "label": "llama_token",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "string",
+      "label": "string",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_cpp_llamacppbridge_decodebatch",
+      "label": "decodeBatch()",
+      "file_type": "code",
+      "source_file": "app/src/main/cpp/LlamaCppBridge.cpp",
+      "source_location": "L72",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_cpp_llamacppbridge_sampleresponse",
+      "label": "sampleResponse()",
+      "file_type": "code",
+      "source_file": "app/src/main/cpp/LlamaCppBridge.cpp",
+      "source_location": "L84",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_cpp_llamacppbridge_jni_onload",
+      "label": "JNI_OnLoad()",
+      "file_type": "code",
+      "source_file": "app/src/main/cpp/LlamaCppBridge.cpp",
+      "source_location": "L116",
+      "_origin": "ast"
+    },
+    {
+      "id": "jniexport",
+      "label": "JNIEXPORT",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "javavm",
+      "label": "JavaVM",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_cpp_llamacppbridge_jni_onunload",
+      "label": "JNI_OnUnload()",
+      "file_type": "code",
+      "source_file": "app/src/main/cpp/LlamaCppBridge.cpp",
+      "source_location": "L133",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_cpp_llamacppbridge_java_com_airi_odslm_jni_llamacppbridge_loadmodel",
+      "label": "Java_com_airi_odslm_jni_LlamaCppBridge_loadModel()",
+      "file_type": "code",
+      "source_file": "app/src/main/cpp/LlamaCppBridge.cpp",
+      "source_location": "L139",
+      "_origin": "ast"
+    },
+    {
+      "id": "jnienv",
+      "label": "JNIEnv",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "jobject",
+      "label": "jobject",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "jstring",
+      "label": "jstring",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "jint",
+      "label": "jint",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_cpp_llamacppbridge_java_com_airi_odslm_jni_llamacppbridge_infer",
+      "label": "Java_com_airi_odslm_jni_LlamaCppBridge_infer()",
+      "file_type": "code",
+      "source_file": "app/src/main/cpp/LlamaCppBridge.cpp",
+      "source_location": "L209",
+      "_origin": "ast"
+    },
+    {
+      "id": "jlong",
+      "label": "jlong",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "jbytearray",
+      "label": "jbyteArray",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_cpp_llamacppbridge_java_com_airi_odslm_jni_llamacppbridge_unloadmodel",
+      "label": "Java_com_airi_odslm_jni_LlamaCppBridge_unloadModel()",
+      "file_type": "code",
+      "source_file": "app/src/main/cpp/LlamaCppBridge.cpp",
+      "source_location": "L338",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_data_appdatabase",
+      "label": "AppDatabase.kt",
+      "file_type": "code",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/data/AppDatabase.kt",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_data_appdatabase_appdatabase",
+      "label": "AppDatabase",
+      "file_type": "code",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/data/AppDatabase.kt",
+      "source_location": "L18",
+      "_origin": "ast"
+    },
+    {
+      "id": "roomdatabase",
+      "label": "RoomDatabase",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_data_appdatabase_appdatabase_chatdao",
+      "label": ".chatDao()",
+      "file_type": "code",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/data/AppDatabase.kt",
+      "source_location": "L25",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_data_appdatabase_getinstance",
+      "label": "getInstance()",
+      "file_type": "code",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/data/AppDatabase.kt",
+      "source_location": "L37",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_data_appdatabase_kt_context",
+      "label": "Context",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_data_appdatabase_builddatabase",
+      "label": "buildDatabase()",
+      "file_type": "code",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/data/AppDatabase.kt",
+      "source_location": "L42",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_data_chatdao",
+      "label": "ChatDao.kt",
+      "file_type": "code",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/data/ChatDao.kt",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_data_chatdao_chatdao",
+      "label": "ChatDao",
+      "file_type": "code",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/data/ChatDao.kt",
+      "source_location": "L15",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_data_chatdao_chatdao_insertmessage",
+      "label": ".insertMessage()",
+      "file_type": "code",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/data/ChatDao.kt",
+      "source_location": "L22",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_data_chatdao_chatdao_getallmessages",
+      "label": ".getAllMessages()",
+      "file_type": "code",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/data/ChatDao.kt",
+      "source_location": "L29",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_data_chatdao_kt_flow",
+      "label": "Flow",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_data_chatdao_chatdao_clearall",
+      "label": ".clearAll()",
+      "file_type": "code",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/data/ChatDao.kt",
+      "source_location": "L33",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_data_chatentity",
+      "label": "ChatEntity.kt",
+      "file_type": "code",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/data/ChatEntity.kt",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_data_chatentity_chatentity",
+      "label": "ChatEntity",
+      "file_type": "code",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/data/ChatEntity.kt",
+      "source_location": "L13",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_data_chatentity_messagerole",
+      "label": "MessageRole",
+      "file_type": "code",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/data/ChatEntity.kt",
+      "source_location": "L24",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_data_chatrepository",
+      "label": "ChatRepository.kt",
+      "file_type": "code",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/data/ChatRepository.kt",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_data_chatrepository_chatrepository",
+      "label": "ChatRepository",
+      "file_type": "code",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/data/ChatRepository.kt",
+      "source_location": "L13",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_data_chatrepository_kt_flow",
+      "label": "Flow",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_data_chatrepository_chatrepository_savemessage",
+      "label": ".saveMessage()",
+      "file_type": "code",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/data/ChatRepository.kt",
+      "source_location": "L22",
+      "_origin": "ast"
+    },
+    {
+      "id": "result",
+      "label": "Result",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_data_chatrepository_chatrepository_clearhistory",
+      "label": ".clearHistory()",
+      "file_type": "code",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/data/ChatRepository.kt",
+      "source_location": "L27",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_jni_llamacppbridge",
+      "label": "LlamaCppBridge.kt",
+      "file_type": "code",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/jni/LlamaCppBridge.kt",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_jni_llamacppbridge_llamacppbridge",
+      "label": "LlamaCppBridge",
+      "file_type": "code",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/jni/LlamaCppBridge.kt",
+      "source_location": "L24",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_jni_llamacppbridge_llamacppbridge_loadmodel",
+      "label": ".loadModel()",
+      "file_type": "code",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/jni/LlamaCppBridge.kt",
+      "source_location": "L36",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_jni_llamacppbridge_llamacppbridge_infer",
+      "label": ".infer()",
+      "file_type": "code",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/jni/LlamaCppBridge.kt",
+      "source_location": "L49",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_jni_llamacppbridge_kt_bytearray",
+      "label": "ByteArray",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_jni_llamacppbridge_llamacppbridge_unloadmodel",
+      "label": ".unloadModel()",
+      "file_type": "code",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/jni/LlamaCppBridge.kt",
+      "source_location": "L64",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_ui_chatactivity",
+      "label": "ChatActivity.kt",
+      "file_type": "code",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/ui/ChatActivity.kt",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_ui_chatactivity_chatactivity",
+      "label": "ChatActivity",
+      "file_type": "code",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/ui/ChatActivity.kt",
+      "source_location": "L17",
+      "_origin": "ast"
+    },
+    {
+      "id": "componentactivity",
+      "label": "ComponentActivity",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_ui_chatactivity_chatactivity_oncreate",
+      "label": ".onCreate()",
+      "file_type": "code",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/ui/ChatActivity.kt",
+      "source_location": "L23",
+      "_origin": "ast"
+    },
+    {
+      "id": "bundle",
+      "label": "Bundle",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_ui_components_bottomnavbar",
+      "label": "BottomNavBar.kt",
+      "file_type": "code",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/ui/components/BottomNavBar.kt",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_ui_components_bottomnavbar_appdestination",
+      "label": "AppDestination",
+      "file_type": "code",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/ui/components/BottomNavBar.kt",
+      "source_location": "L19",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_ui_components_bottomnavbar_appdestination_chat",
+      "label": "CHAT",
+      "file_type": "code",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/ui/components/BottomNavBar.kt",
+      "source_location": "L20",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_ui_components_bottomnavbar_appdestination_character",
+      "label": "CHARACTER",
+      "file_type": "code",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/ui/components/BottomNavBar.kt",
+      "source_location": "L21",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_ui_components_bottomnavbar_appdestination_library",
+      "label": "LIBRARY",
+      "file_type": "code",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/ui/components/BottomNavBar.kt",
+      "source_location": "L23",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_ui_components_bottomnavbar_bottomnavbar",
+      "label": "BottomNavBar()",
+      "file_type": "code",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/ui/components/BottomNavBar.kt",
+      "source_location": "L26",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_ui_components_chatbubble",
+      "label": "ChatBubble.kt",
+      "file_type": "code",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/ui/components/ChatBubble.kt",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_ui_components_chatbubble_chatbubble",
+      "label": "ChatBubble()",
+      "file_type": "code",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/ui/components/ChatBubble.kt",
+      "source_location": "L33",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_ui_screens_characterscreen",
+      "label": "CharacterScreen.kt",
+      "file_type": "code",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/ui/screens/CharacterScreen.kt",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_ui_screens_characterscreen_characterscreen",
+      "label": "CharacterScreen()",
+      "file_type": "code",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/ui/screens/CharacterScreen.kt",
+      "source_location": "L14",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_ui_screens_chatscreen",
+      "label": "ChatScreen.kt",
+      "file_type": "code",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/ui/screens/ChatScreen.kt",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_ui_screens_chatscreen_chatscreen",
+      "label": "ChatScreen()",
+      "file_type": "code",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/ui/screens/ChatScreen.kt",
+      "source_location": "L53",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_ui_screens_libraryscreen",
+      "label": "LibraryScreen.kt",
+      "file_type": "code",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/ui/screens/LibraryScreen.kt",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_ui_screens_libraryscreen_libraryscreen",
+      "label": "LibraryScreen()",
+      "file_type": "code",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/ui/screens/LibraryScreen.kt",
+      "source_location": "L14",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_ui_screens_mainapp",
+      "label": "MainApp.kt",
+      "file_type": "code",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/ui/screens/MainApp.kt",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_ui_screens_mainapp_mainapp",
+      "label": "MainApp()",
+      "file_type": "code",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/ui/screens/MainApp.kt",
+      "source_location": "L17",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_ui_theme_color",
+      "label": "Color.kt",
+      "file_type": "code",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/ui/theme/Color.kt",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_ui_theme_theme",
+      "label": "Theme.kt",
+      "file_type": "code",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/ui/theme/Theme.kt",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_ui_theme_theme_airitheme",
+      "label": "AIRITheme()",
+      "file_type": "code",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/ui/theme/Theme.kt",
+      "source_location": "L28",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_ui_theme_type",
+      "label": "Type.kt",
+      "file_type": "code",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/ui/theme/Type.kt",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_util_imageprocessor",
+      "label": "ImageProcessor.kt",
+      "file_type": "code",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/util/ImageProcessor.kt",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_util_imageprocessor_imageprocessor",
+      "label": "ImageProcessor",
+      "file_type": "code",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/util/ImageProcessor.kt",
+      "source_location": "L20",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_util_imageprocessor_imageprocessor_processimage",
+      "label": ".processImage()",
+      "file_type": "code",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/util/ImageProcessor.kt",
+      "source_location": "L33",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_util_imageprocessor_kt_context",
+      "label": "Context",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_util_imageprocessor_kt_uri",
+      "label": "Uri",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_util_imageprocessor_kt_bytearray",
+      "label": "ByteArray",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_util_imageprocessor_imageprocessor_resize",
+      "label": ".resize()",
+      "file_type": "code",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/util/ImageProcessor.kt",
+      "source_location": "L60",
+      "_origin": "ast"
+    },
+    {
+      "id": "bitmap",
+      "label": "Bitmap",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_util_inputvalidator",
+      "label": "InputValidator.kt",
+      "file_type": "code",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/util/InputValidator.kt",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_util_inputvalidator_inputvalidator",
+      "label": "InputValidator",
+      "file_type": "code",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/util/InputValidator.kt",
+      "source_location": "L11",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_util_inputvalidator_inputvalidator_validatetext",
+      "label": ".validateText()",
+      "file_type": "code",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/util/InputValidator.kt",
+      "source_location": "L15",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_util_inputvalidator_inputvalidator_validateimage",
+      "label": ".validateImage()",
+      "file_type": "code",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/util/InputValidator.kt",
+      "source_location": "L19",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_util_inputvalidator_kt_context",
+      "label": "Context",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_util_inputvalidator_kt_uri",
+      "label": "Uri",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_util_outputfilter",
+      "label": "OutputFilter.kt",
+      "file_type": "code",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/util/OutputFilter.kt",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_util_outputfilter_outputfilter",
+      "label": "OutputFilter",
+      "file_type": "code",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/util/OutputFilter.kt",
+      "source_location": "L9",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_util_outputfilter_outputfilter_issafe",
+      "label": ".isSafe()",
+      "file_type": "code",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/util/OutputFilter.kt",
+      "source_location": "L18",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_util_performancemonitor",
+      "label": "PerformanceMonitor.kt",
+      "file_type": "code",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/util/PerformanceMonitor.kt",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_util_performancemonitor_performancemonitor",
+      "label": "PerformanceMonitor",
+      "file_type": "code",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/util/PerformanceMonitor.kt",
+      "source_location": "L13",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_util_performancemonitor_performancemonitor_logthermalstatus",
+      "label": ".logThermalStatus()",
+      "file_type": "code",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/util/PerformanceMonitor.kt",
+      "source_location": "L23",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_util_performancemonitor_performancemonitor_logttft",
+      "label": ".logTTFT()",
+      "file_type": "code",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/util/PerformanceMonitor.kt",
+      "source_location": "L38",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_util_performancemonitor_performancemonitor_logtotaltime",
+      "label": ".logTotalTime()",
+      "file_type": "code",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/util/PerformanceMonitor.kt",
+      "source_location": "L46",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_viewmodel_chatuistate",
+      "label": "ChatUiState.kt",
+      "file_type": "code",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/viewmodel/ChatUiState.kt",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_viewmodel_chatuistate_chatmessage",
+      "label": "ChatMessage",
+      "file_type": "code",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/viewmodel/ChatUiState.kt",
+      "source_location": "L12",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_viewmodel_chatuistate_chatuistate",
+      "label": "ChatUiState",
+      "file_type": "code",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/viewmodel/ChatUiState.kt",
+      "source_location": "L26",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_viewmodel_chatviewmodel",
+      "label": "ChatViewModel.kt",
+      "file_type": "code",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/viewmodel/ChatViewModel.kt",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_viewmodel_chatviewmodel_chatviewmodel",
+      "label": "ChatViewModel",
+      "file_type": "code",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/viewmodel/ChatViewModel.kt",
+      "source_location": "L37",
+      "_origin": "ast"
+    },
+    {
+      "id": "viewmodel",
+      "label": "ViewModel",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "stateflow",
+      "label": "StateFlow",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_viewmodel_chatviewmodel_chatviewmodel_attachimage",
+      "label": ".attachImage()",
+      "file_type": "code",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/viewmodel/ChatViewModel.kt",
+      "source_location": "L88",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_viewmodel_chatviewmodel_kt_uri",
+      "label": "Uri",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_viewmodel_chatviewmodel_chatviewmodel_clearpendingimage",
+      "label": ".clearPendingImage()",
+      "file_type": "code",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/viewmodel/ChatViewModel.kt",
+      "source_location": "L93",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_viewmodel_chatviewmodel_chatviewmodel_sendprompt",
+      "label": ".sendPrompt()",
+      "file_type": "code",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/viewmodel/ChatViewModel.kt",
+      "source_location": "L103",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_viewmodel_chatviewmodel_chatviewmodel_clearerror",
+      "label": ".clearError()",
+      "file_type": "code",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/viewmodel/ChatViewModel.kt",
+      "source_location": "L144",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_viewmodel_chatviewmodel_chatviewmodel_oncleared",
+      "label": ".onCleared()",
+      "file_type": "code",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/viewmodel/ChatViewModel.kt",
+      "source_location": "L148",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_viewmodel_chatviewmodel_factory",
+      "label": "Factory",
+      "file_type": "code",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/viewmodel/ChatViewModel.kt",
+      "source_location": "L157",
+      "_origin": "ast"
+    },
+    {
+      "id": "viewmodelprovider",
+      "label": "ViewModelProvider",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_viewmodel_chatviewmodel_factory_create",
+      "label": ".create()",
+      "file_type": "code",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/viewmodel/ChatViewModel.kt",
+      "source_location": "L158",
+      "_origin": "ast"
+    },
+    {
+      "id": "t",
+      "label": "T",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_viewmodel_inferencemanager",
+      "label": "InferenceManager.kt",
+      "file_type": "code",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/viewmodel/InferenceManager.kt",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_viewmodel_inferencemanager_inferencemanager",
+      "label": "InferenceManager",
+      "file_type": "code",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/viewmodel/InferenceManager.kt",
+      "source_location": "L17",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_viewmodel_inferencemanager_inferencemanager_loadmodel",
+      "label": ".loadModel()",
+      "file_type": "code",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/viewmodel/InferenceManager.kt",
+      "source_location": "L29",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_viewmodel_inferencemanager_inferencemanager_infer",
+      "label": ".infer()",
+      "file_type": "code",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/viewmodel/InferenceManager.kt",
+      "source_location": "L49",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_viewmodel_inferencemanager_kt_uri",
+      "label": "Uri",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_main_kotlin_com_airi_odslm_viewmodel_inferencemanager_inferencemanager_unloadmodel",
+      "label": ".unloadModel()",
+      "file_type": "code",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/viewmodel/InferenceManager.kt",
+      "source_location": "L95",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_test_kotlin_com_airi_odslm_chatviewmodeltest",
+      "label": "ChatViewModelTest.kt",
+      "file_type": "code",
+      "source_file": "app/src/test/kotlin/com/airi/odslm/ChatViewModelTest.kt",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_test_kotlin_com_airi_odslm_chatviewmodeltest_chatviewmodeltest",
+      "label": "ChatViewModelTest",
+      "file_type": "code",
+      "source_file": "app/src/test/kotlin/com/airi/odslm/ChatViewModelTest.kt",
+      "source_location": "L34",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_test_kotlin_com_airi_odslm_chatviewmodeltest_chatviewmodeltest_setup",
+      "label": ".setUp()",
+      "file_type": "code",
+      "source_file": "app/src/test/kotlin/com/airi/odslm/ChatViewModelTest.kt",
+      "source_location": "L42",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_test_kotlin_com_airi_odslm_chatviewmodeltest_chatviewmodeltest_teardown",
+      "label": ".tearDown()",
+      "file_type": "code",
+      "source_file": "app/src/test/kotlin/com/airi/odslm/ChatViewModelTest.kt",
+      "source_location": "L52",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_test_kotlin_com_airi_odslm_chatviewmodeltest_chatviewmodeltest_initial_state_has_empty_messages_and_is_not_loading",
+      "label": ".`initial state has empty messages and is not loading`()",
+      "file_type": "code",
+      "source_file": "app/src/test/kotlin/com/airi/odslm/ChatViewModelTest.kt",
+      "source_location": "L57",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_test_kotlin_com_airi_odslm_chatviewmodeltest_chatviewmodeltest_attachimage_stores_uri_in_pendingimageuri",
+      "label": ".`attachImage stores URI in pendingImageUri`()",
+      "file_type": "code",
+      "source_file": "app/src/test/kotlin/com/airi/odslm/ChatViewModelTest.kt",
+      "source_location": "L66",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_test_kotlin_com_airi_odslm_chatviewmodeltest_chatviewmodeltest_clearpendingimage_removes_uri_from_state",
+      "label": ".`clearPendingImage removes URI from state`()",
+      "file_type": "code",
+      "source_file": "app/src/test/kotlin/com/airi/odslm/ChatViewModelTest.kt",
+      "source_location": "L73",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_test_kotlin_com_airi_odslm_chatviewmodeltest_chatviewmodeltest_sendprompt_with_blank_text_does_nothing",
+      "label": ".`sendPrompt with blank text does nothing`()",
+      "file_type": "code",
+      "source_file": "app/src/test/kotlin/com/airi/odslm/ChatViewModelTest.kt",
+      "source_location": "L81",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_test_kotlin_com_airi_odslm_chatviewmodeltest_chatviewmodeltest_sendprompt_sets_isloading_true_then_false",
+      "label": ".`sendPrompt sets isLoading true then false`()",
+      "file_type": "code",
+      "source_file": "app/src/test/kotlin/com/airi/odslm/ChatViewModelTest.kt",
+      "source_location": "L89",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_test_kotlin_com_airi_odslm_chatviewmodeltest_chatviewmodeltest_sendprompt_clears_pendingimageuri_after_sending",
+      "label": ".`sendPrompt clears pendingImageUri after sending`()",
+      "file_type": "code",
+      "source_file": "app/src/test/kotlin/com/airi/odslm/ChatViewModelTest.kt",
+      "source_location": "L104",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_test_kotlin_com_airi_odslm_chatviewmodeltest_chatviewmodeltest_sendprompt_saves_user_message_and_model_response_to_repository",
+      "label": ".`sendPrompt saves user message and model response to repository`()",
+      "file_type": "code",
+      "source_file": "app/src/test/kotlin/com/airi/odslm/ChatViewModelTest.kt",
+      "source_location": "L116",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_test_kotlin_com_airi_odslm_chatviewmodeltest_chatviewmodeltest_sendprompt_saves_message_with_correct_user_role",
+      "label": ".`sendPrompt saves message with correct user role`()",
+      "file_type": "code",
+      "source_file": "app/src/test/kotlin/com/airi/odslm/ChatViewModelTest.kt",
+      "source_location": "L128",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_test_kotlin_com_airi_odslm_chatviewmodeltest_chatviewmodeltest_clearerror_removes_error_from_state",
+      "label": ".`clearError removes error from state`()",
+      "file_type": "code",
+      "source_file": "app/src/test/kotlin/com/airi/odslm/ChatViewModelTest.kt",
+      "source_location": "L140",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_test_kotlin_com_airi_odslm_chatviewmodeltest_chatviewmodeltest_sendprompt_with_too_long_text_sets_error_and_aborts",
+      "label": ".`sendPrompt with too long text sets error and aborts`()",
+      "file_type": "code",
+      "source_file": "app/src/test/kotlin/com/airi/odslm/ChatViewModelTest.kt",
+      "source_location": "L148",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_test_kotlin_com_airi_odslm_chatviewmodeltest_chatviewmodeltest_sendprompt_uses_outputfilter_and_falls_back_on_dangerous_content",
+      "label": ".`sendPrompt uses OutputFilter and falls back on dangerous content`()",
+      "file_type": "code",
+      "source_file": "app/src/test/kotlin/com/airi/odslm/ChatViewModelTest.kt",
+      "source_location": "L158",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_test_kotlin_com_airi_odslm_util_imageprocessortest",
+      "label": "ImageProcessorTest.kt",
+      "file_type": "code",
+      "source_file": "app/src/test/kotlin/com/airi/odslm/util/ImageProcessorTest.kt",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_test_kotlin_com_airi_odslm_util_imageprocessortest_imageprocessortest",
+      "label": "ImageProcessorTest",
+      "file_type": "code",
+      "source_file": "app/src/test/kotlin/com/airi/odslm/util/ImageProcessorTest.kt",
+      "source_location": "L20",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_test_kotlin_com_airi_odslm_util_imageprocessortest_kt_context",
+      "label": "Context",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "contentresolver",
+      "label": "ContentResolver",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_test_kotlin_com_airi_odslm_util_imageprocessortest_kt_uri",
+      "label": "Uri",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_test_kotlin_com_airi_odslm_util_imageprocessortest_imageprocessortest_processimage_returns_null_when_uri_stream_cannot_be_opened",
+      "label": ".`processImage returns null when URI stream cannot be opened`()",
+      "file_type": "code",
+      "source_file": "app/src/test/kotlin/com/airi/odslm/util/ImageProcessorTest.kt",
+      "source_location": "L30",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_test_kotlin_com_airi_odslm_util_imageprocessortest_imageprocessortest_processimage_returns_null_when_stream_contains_non_image_bytes",
+      "label": ".`processImage returns null when stream contains non-image bytes`()",
+      "file_type": "code",
+      "source_file": "app/src/test/kotlin/com/airi/odslm/util/ImageProcessorTest.kt",
+      "source_location": "L39",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_test_kotlin_com_airi_odslm_util_imageprocessortest_imageprocessortest_processimage_returns_null_on_contentresolver_exception",
+      "label": ".`processImage returns null on ContentResolver exception`()",
+      "file_type": "code",
+      "source_file": "app/src/test/kotlin/com/airi/odslm/util/ImageProcessorTest.kt",
+      "source_location": "L50",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_test_kotlin_com_airi_odslm_util_inputvalidatortest",
+      "label": "InputValidatorTest.kt",
+      "file_type": "code",
+      "source_file": "app/src/test/kotlin/com/airi/odslm/util/InputValidatorTest.kt",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_test_kotlin_com_airi_odslm_util_inputvalidatortest_inputvalidatortest",
+      "label": "InputValidatorTest",
+      "file_type": "code",
+      "source_file": "app/src/test/kotlin/com/airi/odslm/util/InputValidatorTest.kt",
+      "source_location": "L10",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_test_kotlin_com_airi_odslm_util_inputvalidatortest_inputvalidatortest_validatetext_returns_true_for_valid_text",
+      "label": ".`validateText returns true for valid text`()",
+      "file_type": "code",
+      "source_file": "app/src/test/kotlin/com/airi/odslm/util/InputValidatorTest.kt",
+      "source_location": "L12",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_test_kotlin_com_airi_odslm_util_inputvalidatortest_inputvalidatortest_validatetext_returns_false_for_blank_text",
+      "label": ".`validateText returns false for blank text`()",
+      "file_type": "code",
+      "source_file": "app/src/test/kotlin/com/airi/odslm/util/InputValidatorTest.kt",
+      "source_location": "L21",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_test_kotlin_com_airi_odslm_util_inputvalidatortest_inputvalidatortest_validatetext_returns_false_for_text_exceeding_max_length",
+      "label": ".`validateText returns false for text exceeding max length`()",
+      "file_type": "code",
+      "source_file": "app/src/test/kotlin/com/airi/odslm/util/InputValidatorTest.kt",
+      "source_location": "L28",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_test_kotlin_com_airi_odslm_util_outputfiltertest",
+      "label": "OutputFilterTest.kt",
+      "file_type": "code",
+      "source_file": "app/src/test/kotlin/com/airi/odslm/util/OutputFilterTest.kt",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_test_kotlin_com_airi_odslm_util_outputfiltertest_outputfiltertest",
+      "label": "OutputFilterTest",
+      "file_type": "code",
+      "source_file": "app/src/test/kotlin/com/airi/odslm/util/OutputFilterTest.kt",
+      "source_location": "L10",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_test_kotlin_com_airi_odslm_util_outputfiltertest_outputfiltertest_issafe_returns_false_for_dangerous_keywords",
+      "label": ".`isSafe returns false for dangerous keywords`()",
+      "file_type": "code",
+      "source_file": "app/src/test/kotlin/com/airi/odslm/util/OutputFilterTest.kt",
+      "source_location": "L12",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_test_kotlin_com_airi_odslm_util_outputfiltertest_outputfiltertest_issafe_returns_false_regardless_of_case",
+      "label": ".`isSafe returns false regardless of case`()",
+      "file_type": "code",
+      "source_file": "app/src/test/kotlin/com/airi/odslm/util/OutputFilterTest.kt",
+      "source_location": "L26",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_test_kotlin_com_airi_odslm_util_outputfiltertest_outputfiltertest_issafe_returns_true_for_safe_content",
+      "label": ".`isSafe returns true for safe content`()",
+      "file_type": "code",
+      "source_file": "app/src/test/kotlin/com/airi/odslm/util/OutputFilterTest.kt",
+      "source_location": "L32",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_src_test_kotlin_com_airi_odslm_util_outputfiltertest_outputfiltertest_issafe_returns_true_for_empty_or_blank_text",
+      "label": ".`isSafe returns true for empty or blank text`()",
+      "file_type": "code",
+      "source_file": "app/src/test/kotlin/com/airi/odslm/util/OutputFilterTest.kt",
+      "source_location": "L46",
+      "_origin": "ast"
+    },
+    {
+      "id": "build_gradle",
+      "label": "build.gradle.kts",
+      "file_type": "code",
+      "source_file": "build.gradle.kts",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "gradlew",
+      "label": "gradlew",
+      "file_type": "code",
+      "source_file": "gradlew",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "file"
+      },
+      "_origin": "ast"
+    },
+    {
+      "id": "gradlew__entry",
+      "label": "gradlew script",
+      "file_type": "code",
+      "source_file": "gradlew",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_entrypoint"
+      },
+      "_origin": "ast"
+    },
+    {
+      "id": "gradlew_warn",
+      "label": "warn()",
+      "file_type": "code",
+      "source_file": "gradlew",
+      "source_location": "L92",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "_origin": "ast"
+    },
+    {
+      "id": "gradlew_die",
+      "label": "die()",
+      "file_type": "code",
+      "source_file": "gradlew",
+      "source_location": "L96",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "_origin": "ast"
+    },
+    {
+      "id": "settings_gradle",
+      "label": "settings.gradle.kts",
+      "file_type": "code",
+      "source_file": "settings.gradle.kts",
+      "source_location": "L1",
+      "_origin": "ast"
+    }
+  ],
+  "edges": [
+    {
+      "source": "app_src_androidtest_kotlin_com_airi_odslm_chatrepositorytest",
+      "target": "app_src_androidtest_kotlin_com_airi_odslm_chatrepositorytest_chatrepositorytest",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/androidTest/kotlin/com/airi/odslm/ChatRepositoryTest.kt",
+      "source_location": "L24",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_androidtest_kotlin_com_airi_odslm_chatrepositorytest_chatrepositorytest",
+      "target": "app_src_main_kotlin_com_airi_odslm_data_appdatabase_appdatabase",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/androidTest/kotlin/com/airi/odslm/ChatRepositoryTest.kt",
+      "source_location": "L27",
+      "weight": 1.0,
+      "context": "field",
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_androidtest_kotlin_com_airi_odslm_chatrepositorytest_chatrepositorytest",
+      "target": "app_src_main_kotlin_com_airi_odslm_data_chatrepository_chatrepository",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/androidTest/kotlin/com/airi/odslm/ChatRepositoryTest.kt",
+      "source_location": "L28",
+      "weight": 1.0,
+      "context": "field",
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_androidtest_kotlin_com_airi_odslm_chatrepositorytest_chatrepositorytest",
+      "target": "app_src_main_kotlin_com_airi_odslm_data_chatdao_chatdao",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/androidTest/kotlin/com/airi/odslm/ChatRepositoryTest.kt",
+      "source_location": "L29",
+      "weight": 1.0,
+      "context": "field",
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_androidtest_kotlin_com_airi_odslm_chatrepositorytest_chatrepositorytest",
+      "target": "app_src_androidtest_kotlin_com_airi_odslm_chatrepositorytest_chatrepositorytest_createdatabase",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/androidTest/kotlin/com/airi/odslm/ChatRepositoryTest.kt",
+      "source_location": "L31",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_androidtest_kotlin_com_airi_odslm_chatrepositorytest_chatrepositorytest",
+      "target": "app_src_androidtest_kotlin_com_airi_odslm_chatrepositorytest_chatrepositorytest_closedatabase",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/androidTest/kotlin/com/airi/odslm/ChatRepositoryTest.kt",
+      "source_location": "L41",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_androidtest_kotlin_com_airi_odslm_chatrepositorytest_chatrepositorytest",
+      "target": "app_src_androidtest_kotlin_com_airi_odslm_chatrepositorytest_chatrepositorytest_savemessage_inserts_message_and_getallmessages_emits_it",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/androidTest/kotlin/com/airi/odslm/ChatRepositoryTest.kt",
+      "source_location": "L46",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_androidtest_kotlin_com_airi_odslm_chatrepositorytest_chatrepositorytest",
+      "target": "app_src_androidtest_kotlin_com_airi_odslm_chatrepositorytest_chatrepositorytest_allmessages_emits_empty_list_when_database_is_empty",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/androidTest/kotlin/com/airi/odslm/ChatRepositoryTest.kt",
+      "source_location": "L63",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_androidtest_kotlin_com_airi_odslm_chatrepositorytest_chatrepositorytest",
+      "target": "app_src_androidtest_kotlin_com_airi_odslm_chatrepositorytest_chatrepositorytest_savemessage_with_assistant_role_stores_correct_role",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/androidTest/kotlin/com/airi/odslm/ChatRepositoryTest.kt",
+      "source_location": "L69",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_androidtest_kotlin_com_airi_odslm_chatrepositorytest_chatrepositorytest",
+      "target": "app_src_androidtest_kotlin_com_airi_odslm_chatrepositorytest_chatrepositorytest_savemessage_with_imagepath_stores_path_correctly",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/androidTest/kotlin/com/airi/odslm/ChatRepositoryTest.kt",
+      "source_location": "L83",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_androidtest_kotlin_com_airi_odslm_chatrepositorytest_chatrepositorytest",
+      "target": "app_src_androidtest_kotlin_com_airi_odslm_chatrepositorytest_chatrepositorytest_messages_are_ordered_by_timestamp_ascending",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/androidTest/kotlin/com/airi/odslm/ChatRepositoryTest.kt",
+      "source_location": "L98",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_androidtest_kotlin_com_airi_odslm_chatrepositorytest_chatrepositorytest",
+      "target": "app_src_androidtest_kotlin_com_airi_odslm_chatrepositorytest_chatrepositorytest_clearhistory_removes_all_messages",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/androidTest/kotlin/com/airi/odslm/ChatRepositoryTest.kt",
+      "source_location": "L113",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_androidtest_kotlin_com_airi_odslm_chatrepositorytest_chatrepositorytest",
+      "target": "app_src_androidtest_kotlin_com_airi_odslm_chatrepositorytest_chatrepositorytest_savemessage_with_empty_content_returns_success",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/androidTest/kotlin/com/airi/odslm/ChatRepositoryTest.kt",
+      "source_location": "L125",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_androidtest_kotlin_com_airi_odslm_chatrepositorytest_chatrepositorytest",
+      "target": "app_src_androidtest_kotlin_com_airi_odslm_chatrepositorytest_chatrepositorytest_savemessage_with_very_long_content_stores_correctly",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/androidTest/kotlin/com/airi/odslm/ChatRepositoryTest.kt",
+      "source_location": "L133",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_androidtest_kotlin_com_airi_odslm_chatrepositorytest_chatrepositorytest_createdatabase",
+      "target": "app_src_main_kotlin_com_airi_odslm_data_chatrepository_chatrepository",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/androidTest/kotlin/com/airi/odslm/ChatRepositoryTest.kt",
+      "source_location": "L38",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_cpp_llamacppbridge",
+      "target": "jni",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/cpp/LlamaCppBridge.cpp",
+      "source_location": "L24",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_cpp_llamacppbridge",
+      "target": "log",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/cpp/LlamaCppBridge.cpp",
+      "source_location": "L25",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_cpp_llamacppbridge",
+      "target": "string",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/cpp/LlamaCppBridge.cpp",
+      "source_location": "L27",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_cpp_llamacppbridge",
+      "target": "vector",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/cpp/LlamaCppBridge.cpp",
+      "source_location": "L28",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_cpp_llamacppbridge",
+      "target": "app_src_main_cpp_llamacppbridge_nativecontext_mutex",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/cpp/LlamaCppBridge.cpp",
+      "source_location": "L29",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_cpp_llamacppbridge",
+      "target": "cstring",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/cpp/LlamaCppBridge.cpp",
+      "source_location": "L30",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_cpp_llamacppbridge",
+      "target": "cstdint",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/cpp/LlamaCppBridge.cpp",
+      "source_location": "L31",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_cpp_llamacppbridge",
+      "target": "llama",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/cpp/LlamaCppBridge.cpp",
+      "source_location": "L34",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_cpp_llamacppbridge",
+      "target": "mtmd",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/cpp/LlamaCppBridge.cpp",
+      "source_location": "L37",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_cpp_llamacppbridge",
+      "target": "app_src_main_cpp_llamacppbridge_nativecontext",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/cpp/LlamaCppBridge.cpp",
+      "source_location": "L49",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_cpp_llamacppbridge_nativecontext",
+      "target": "llama_model",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/cpp/LlamaCppBridge.cpp",
+      "source_location": "L50",
+      "weight": 1.0,
+      "context": "field",
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_cpp_llamacppbridge_nativecontext",
+      "target": "app_src_main_cpp_llamacppbridge_nativecontext_model",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/cpp/LlamaCppBridge.cpp",
+      "source_location": "L50",
+      "weight": 1.0,
+      "context": "field",
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_cpp_llamacppbridge_nativecontext",
+      "target": "llama_context",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/cpp/LlamaCppBridge.cpp",
+      "source_location": "L51",
+      "weight": 1.0,
+      "context": "field",
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_cpp_llamacppbridge_nativecontext",
+      "target": "app_src_main_cpp_llamacppbridge_nativecontext_ctx",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/cpp/LlamaCppBridge.cpp",
+      "source_location": "L51",
+      "weight": 1.0,
+      "context": "field",
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_cpp_llamacppbridge_nativecontext",
+      "target": "mtmd_context",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/cpp/LlamaCppBridge.cpp",
+      "source_location": "L52",
+      "weight": 1.0,
+      "context": "field",
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_cpp_llamacppbridge_nativecontext",
+      "target": "app_src_main_cpp_llamacppbridge_nativecontext_mctx",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/cpp/LlamaCppBridge.cpp",
+      "source_location": "L52",
+      "weight": 1.0,
+      "context": "field",
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_cpp_llamacppbridge_nativecontext",
+      "target": "app_src_main_cpp_llamacppbridge_nativecontext_mutex",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/cpp/LlamaCppBridge.cpp",
+      "source_location": "L53",
+      "weight": 1.0,
+      "context": "field",
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_cpp_llamacppbridge_nativecontext",
+      "target": "app_src_main_cpp_llamacppbridge_nativecontext_mutex",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/cpp/LlamaCppBridge.cpp",
+      "source_location": "L53",
+      "weight": 1.0,
+      "context": "field",
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_cpp_llamacppbridge",
+      "target": "app_src_main_cpp_llamacppbridge_tokenize",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/cpp/LlamaCppBridge.cpp",
+      "source_location": "L59",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_cpp_llamacppbridge_tokenize",
+      "target": "vector",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/cpp/LlamaCppBridge.cpp",
+      "source_location": "L59",
+      "weight": 1.0,
+      "context": "return_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_cpp_llamacppbridge_tokenize",
+      "target": "llama_token",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/cpp/LlamaCppBridge.cpp",
+      "source_location": "L59",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_cpp_llamacppbridge_tokenize",
+      "target": "llama_model",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/cpp/LlamaCppBridge.cpp",
+      "source_location": "L59",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_cpp_llamacppbridge_tokenize",
+      "target": "string",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/cpp/LlamaCppBridge.cpp",
+      "source_location": "L59",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_cpp_llamacppbridge",
+      "target": "app_src_main_cpp_llamacppbridge_decodebatch",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/cpp/LlamaCppBridge.cpp",
+      "source_location": "L72",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_cpp_llamacppbridge_decodebatch",
+      "target": "llama_context",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/cpp/LlamaCppBridge.cpp",
+      "source_location": "L72",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_cpp_llamacppbridge_decodebatch",
+      "target": "vector",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/cpp/LlamaCppBridge.cpp",
+      "source_location": "L72",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_cpp_llamacppbridge_decodebatch",
+      "target": "llama_token",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/cpp/LlamaCppBridge.cpp",
+      "source_location": "L72",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_cpp_llamacppbridge",
+      "target": "app_src_main_cpp_llamacppbridge_sampleresponse",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/cpp/LlamaCppBridge.cpp",
+      "source_location": "L84",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_cpp_llamacppbridge_sampleresponse",
+      "target": "string",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/cpp/LlamaCppBridge.cpp",
+      "source_location": "L84",
+      "weight": 1.0,
+      "context": "return_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_cpp_llamacppbridge_sampleresponse",
+      "target": "llama_context",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/cpp/LlamaCppBridge.cpp",
+      "source_location": "L84",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_cpp_llamacppbridge_sampleresponse",
+      "target": "llama_model",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/cpp/LlamaCppBridge.cpp",
+      "source_location": "L84",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_cpp_llamacppbridge",
+      "target": "app_src_main_cpp_llamacppbridge_jni_onload",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/cpp/LlamaCppBridge.cpp",
+      "source_location": "L116",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_cpp_llamacppbridge_jni_onload",
+      "target": "jniexport",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/cpp/LlamaCppBridge.cpp",
+      "source_location": "L116",
+      "weight": 1.0,
+      "context": "return_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_cpp_llamacppbridge_jni_onload",
+      "target": "javavm",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/cpp/LlamaCppBridge.cpp",
+      "source_location": "L116",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_cpp_llamacppbridge",
+      "target": "app_src_main_cpp_llamacppbridge_jni_onunload",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/cpp/LlamaCppBridge.cpp",
+      "source_location": "L133",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_cpp_llamacppbridge_jni_onunload",
+      "target": "jniexport",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/cpp/LlamaCppBridge.cpp",
+      "source_location": "L133",
+      "weight": 1.0,
+      "context": "return_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_cpp_llamacppbridge_jni_onunload",
+      "target": "javavm",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/cpp/LlamaCppBridge.cpp",
+      "source_location": "L133",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_cpp_llamacppbridge",
+      "target": "app_src_main_cpp_llamacppbridge_java_com_airi_odslm_jni_llamacppbridge_loadmodel",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/cpp/LlamaCppBridge.cpp",
+      "source_location": "L139",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_cpp_llamacppbridge_java_com_airi_odslm_jni_llamacppbridge_loadmodel",
+      "target": "jniexport",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/cpp/LlamaCppBridge.cpp",
+      "source_location": "L139",
+      "weight": 1.0,
+      "context": "return_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_cpp_llamacppbridge_java_com_airi_odslm_jni_llamacppbridge_loadmodel",
+      "target": "jnienv",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/cpp/LlamaCppBridge.cpp",
+      "source_location": "L139",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_cpp_llamacppbridge_java_com_airi_odslm_jni_llamacppbridge_loadmodel",
+      "target": "jobject",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/cpp/LlamaCppBridge.cpp",
+      "source_location": "L139",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_cpp_llamacppbridge_java_com_airi_odslm_jni_llamacppbridge_loadmodel",
+      "target": "jstring",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/cpp/LlamaCppBridge.cpp",
+      "source_location": "L139",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_cpp_llamacppbridge_java_com_airi_odslm_jni_llamacppbridge_loadmodel",
+      "target": "jstring",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/cpp/LlamaCppBridge.cpp",
+      "source_location": "L139",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_cpp_llamacppbridge_java_com_airi_odslm_jni_llamacppbridge_loadmodel",
+      "target": "jint",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/cpp/LlamaCppBridge.cpp",
+      "source_location": "L139",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_cpp_llamacppbridge",
+      "target": "app_src_main_cpp_llamacppbridge_java_com_airi_odslm_jni_llamacppbridge_infer",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/cpp/LlamaCppBridge.cpp",
+      "source_location": "L209",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_cpp_llamacppbridge_java_com_airi_odslm_jni_llamacppbridge_infer",
+      "target": "jniexport",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/cpp/LlamaCppBridge.cpp",
+      "source_location": "L209",
+      "weight": 1.0,
+      "context": "return_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_cpp_llamacppbridge_java_com_airi_odslm_jni_llamacppbridge_infer",
+      "target": "jnienv",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/cpp/LlamaCppBridge.cpp",
+      "source_location": "L209",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_cpp_llamacppbridge_java_com_airi_odslm_jni_llamacppbridge_infer",
+      "target": "jobject",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/cpp/LlamaCppBridge.cpp",
+      "source_location": "L209",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_cpp_llamacppbridge_java_com_airi_odslm_jni_llamacppbridge_infer",
+      "target": "jlong",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/cpp/LlamaCppBridge.cpp",
+      "source_location": "L209",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_cpp_llamacppbridge_java_com_airi_odslm_jni_llamacppbridge_infer",
+      "target": "jstring",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/cpp/LlamaCppBridge.cpp",
+      "source_location": "L209",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_cpp_llamacppbridge_java_com_airi_odslm_jni_llamacppbridge_infer",
+      "target": "jbytearray",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/cpp/LlamaCppBridge.cpp",
+      "source_location": "L209",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_cpp_llamacppbridge_java_com_airi_odslm_jni_llamacppbridge_infer",
+      "target": "jint",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/cpp/LlamaCppBridge.cpp",
+      "source_location": "L209",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_cpp_llamacppbridge_java_com_airi_odslm_jni_llamacppbridge_infer",
+      "target": "jint",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/cpp/LlamaCppBridge.cpp",
+      "source_location": "L209",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_cpp_llamacppbridge",
+      "target": "app_src_main_cpp_llamacppbridge_java_com_airi_odslm_jni_llamacppbridge_unloadmodel",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/cpp/LlamaCppBridge.cpp",
+      "source_location": "L338",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_cpp_llamacppbridge_java_com_airi_odslm_jni_llamacppbridge_unloadmodel",
+      "target": "jniexport",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/cpp/LlamaCppBridge.cpp",
+      "source_location": "L338",
+      "weight": 1.0,
+      "context": "return_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_cpp_llamacppbridge_java_com_airi_odslm_jni_llamacppbridge_unloadmodel",
+      "target": "jnienv",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/cpp/LlamaCppBridge.cpp",
+      "source_location": "L338",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_cpp_llamacppbridge_java_com_airi_odslm_jni_llamacppbridge_unloadmodel",
+      "target": "jobject",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/cpp/LlamaCppBridge.cpp",
+      "source_location": "L338",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_cpp_llamacppbridge_java_com_airi_odslm_jni_llamacppbridge_unloadmodel",
+      "target": "jlong",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/cpp/LlamaCppBridge.cpp",
+      "source_location": "L338",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_cpp_llamacppbridge_java_com_airi_odslm_jni_llamacppbridge_infer",
+      "target": "app_src_main_cpp_llamacppbridge_decodebatch",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/cpp/LlamaCppBridge.cpp",
+      "source_location": "L285",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_cpp_llamacppbridge_java_com_airi_odslm_jni_llamacppbridge_infer",
+      "target": "app_src_main_cpp_llamacppbridge_sampleresponse",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/cpp/LlamaCppBridge.cpp",
+      "source_location": "L295",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_cpp_llamacppbridge_java_com_airi_odslm_jni_llamacppbridge_infer",
+      "target": "app_src_main_cpp_llamacppbridge_tokenize",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/cpp/LlamaCppBridge.cpp",
+      "source_location": "L318",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_data_appdatabase",
+      "target": "app_src_main_kotlin_com_airi_odslm_data_appdatabase_appdatabase",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/data/AppDatabase.kt",
+      "source_location": "L18",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_data_appdatabase_appdatabase",
+      "target": "roomdatabase",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/data/AppDatabase.kt",
+      "source_location": "L18",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_data_appdatabase_appdatabase",
+      "target": "app_src_main_kotlin_com_airi_odslm_data_appdatabase_appdatabase_chatdao",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/data/AppDatabase.kt",
+      "source_location": "L25",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_data_appdatabase_appdatabase_chatdao",
+      "target": "app_src_main_kotlin_com_airi_odslm_data_chatdao_chatdao",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/data/AppDatabase.kt",
+      "source_location": "L25",
+      "weight": 1.0,
+      "context": "return_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_data_appdatabase",
+      "target": "app_src_main_kotlin_com_airi_odslm_data_appdatabase_getinstance",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/data/AppDatabase.kt",
+      "source_location": "L37",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_data_appdatabase_getinstance",
+      "target": "app_src_main_kotlin_com_airi_odslm_data_appdatabase_kt_context",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/data/AppDatabase.kt",
+      "source_location": "L37",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_data_appdatabase_getinstance",
+      "target": "app_src_main_kotlin_com_airi_odslm_data_appdatabase_appdatabase",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/data/AppDatabase.kt",
+      "source_location": "L37",
+      "weight": 1.0,
+      "context": "return_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_data_appdatabase",
+      "target": "app_src_main_kotlin_com_airi_odslm_data_appdatabase_builddatabase",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/data/AppDatabase.kt",
+      "source_location": "L42",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_data_appdatabase_builddatabase",
+      "target": "app_src_main_kotlin_com_airi_odslm_data_appdatabase_kt_context",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/data/AppDatabase.kt",
+      "source_location": "L42",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_data_appdatabase_builddatabase",
+      "target": "app_src_main_kotlin_com_airi_odslm_data_appdatabase_appdatabase",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/data/AppDatabase.kt",
+      "source_location": "L42",
+      "weight": 1.0,
+      "context": "return_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_data_appdatabase_getinstance",
+      "target": "app_src_main_kotlin_com_airi_odslm_data_appdatabase_builddatabase",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/data/AppDatabase.kt",
+      "source_location": "L39",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_data_chatdao",
+      "target": "app_src_main_kotlin_com_airi_odslm_data_chatdao_chatdao",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/data/ChatDao.kt",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_data_chatdao_chatdao",
+      "target": "app_src_main_kotlin_com_airi_odslm_data_chatdao_chatdao_insertmessage",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/data/ChatDao.kt",
+      "source_location": "L22",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_data_chatdao_chatdao_insertmessage",
+      "target": "app_src_main_kotlin_com_airi_odslm_data_chatentity_chatentity",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/data/ChatDao.kt",
+      "source_location": "L22",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_data_chatdao_chatdao",
+      "target": "app_src_main_kotlin_com_airi_odslm_data_chatdao_chatdao_getallmessages",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/data/ChatDao.kt",
+      "source_location": "L29",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_data_chatdao_chatdao_getallmessages",
+      "target": "app_src_main_kotlin_com_airi_odslm_data_chatdao_kt_flow",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/data/ChatDao.kt",
+      "source_location": "L29",
+      "weight": 1.0,
+      "context": "return_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_data_chatdao_chatdao_getallmessages",
+      "target": "app_src_main_kotlin_com_airi_odslm_data_chatentity_chatentity",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/data/ChatDao.kt",
+      "source_location": "L29",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_data_chatdao_chatdao",
+      "target": "app_src_main_kotlin_com_airi_odslm_data_chatdao_chatdao_clearall",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/data/ChatDao.kt",
+      "source_location": "L33",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_data_chatentity",
+      "target": "app_src_main_kotlin_com_airi_odslm_data_chatentity_chatentity",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/data/ChatEntity.kt",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_data_chatentity",
+      "target": "app_src_main_kotlin_com_airi_odslm_data_chatentity_messagerole",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/data/ChatEntity.kt",
+      "source_location": "L24",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_data_chatrepository",
+      "target": "app_src_main_kotlin_com_airi_odslm_data_chatrepository_chatrepository",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/data/ChatRepository.kt",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_data_chatrepository_chatrepository",
+      "target": "app_src_main_kotlin_com_airi_odslm_data_chatrepository_kt_flow",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/data/ChatRepository.kt",
+      "source_location": "L16",
+      "weight": 1.0,
+      "context": "field",
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_data_chatrepository_chatrepository",
+      "target": "app_src_main_kotlin_com_airi_odslm_data_chatentity_chatentity",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/data/ChatRepository.kt",
+      "source_location": "L16",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_data_chatrepository_chatrepository",
+      "target": "app_src_main_kotlin_com_airi_odslm_data_chatrepository_chatrepository_savemessage",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/data/ChatRepository.kt",
+      "source_location": "L22",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_data_chatrepository_chatrepository_savemessage",
+      "target": "app_src_main_kotlin_com_airi_odslm_data_chatentity_chatentity",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/data/ChatRepository.kt",
+      "source_location": "L22",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_data_chatrepository_chatrepository_savemessage",
+      "target": "result",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/data/ChatRepository.kt",
+      "source_location": "L22",
+      "weight": 1.0,
+      "context": "return_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_data_chatrepository_chatrepository",
+      "target": "app_src_main_kotlin_com_airi_odslm_data_chatrepository_chatrepository_clearhistory",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/data/ChatRepository.kt",
+      "source_location": "L27",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_data_chatrepository_chatrepository_clearhistory",
+      "target": "result",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/data/ChatRepository.kt",
+      "source_location": "L27",
+      "weight": 1.0,
+      "context": "return_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_jni_llamacppbridge",
+      "target": "app_src_main_kotlin_com_airi_odslm_jni_llamacppbridge_llamacppbridge",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/jni/LlamaCppBridge.kt",
+      "source_location": "L24",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_jni_llamacppbridge_llamacppbridge",
+      "target": "app_src_main_kotlin_com_airi_odslm_jni_llamacppbridge_llamacppbridge_loadmodel",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/jni/LlamaCppBridge.kt",
+      "source_location": "L36",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_jni_llamacppbridge_llamacppbridge",
+      "target": "app_src_main_kotlin_com_airi_odslm_jni_llamacppbridge_llamacppbridge_infer",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/jni/LlamaCppBridge.kt",
+      "source_location": "L49",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_jni_llamacppbridge_llamacppbridge_infer",
+      "target": "app_src_main_kotlin_com_airi_odslm_jni_llamacppbridge_kt_bytearray",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/jni/LlamaCppBridge.kt",
+      "source_location": "L49",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_jni_llamacppbridge_llamacppbridge",
+      "target": "app_src_main_kotlin_com_airi_odslm_jni_llamacppbridge_llamacppbridge_unloadmodel",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/jni/LlamaCppBridge.kt",
+      "source_location": "L64",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_ui_chatactivity",
+      "target": "app_src_main_kotlin_com_airi_odslm_ui_chatactivity_chatactivity",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/ui/ChatActivity.kt",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_ui_chatactivity_chatactivity",
+      "target": "componentactivity",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/ui/ChatActivity.kt",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_ui_chatactivity_chatactivity",
+      "target": "app_src_main_kotlin_com_airi_odslm_viewmodel_chatviewmodel_chatviewmodel",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/ui/ChatActivity.kt",
+      "source_location": "L19",
+      "weight": 1.0,
+      "context": "field",
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_ui_chatactivity_chatactivity",
+      "target": "app_src_main_kotlin_com_airi_odslm_ui_chatactivity_chatactivity_oncreate",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/ui/ChatActivity.kt",
+      "source_location": "L23",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_ui_chatactivity_chatactivity_oncreate",
+      "target": "bundle",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/ui/ChatActivity.kt",
+      "source_location": "L23",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_ui_components_bottomnavbar",
+      "target": "app_src_main_kotlin_com_airi_odslm_ui_components_bottomnavbar_appdestination",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/ui/components/BottomNavBar.kt",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_ui_components_bottomnavbar_appdestination",
+      "target": "app_src_main_kotlin_com_airi_odslm_ui_components_bottomnavbar_appdestination_chat",
+      "relation": "case_of",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/ui/components/BottomNavBar.kt",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_ui_components_bottomnavbar_appdestination",
+      "target": "app_src_main_kotlin_com_airi_odslm_ui_components_bottomnavbar_appdestination_character",
+      "relation": "case_of",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/ui/components/BottomNavBar.kt",
+      "source_location": "L21",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_ui_components_bottomnavbar_appdestination",
+      "target": "app_src_main_kotlin_com_airi_odslm_ui_components_bottomnavbar_appdestination_library",
+      "relation": "case_of",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/ui/components/BottomNavBar.kt",
+      "source_location": "L23",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_ui_components_bottomnavbar",
+      "target": "app_src_main_kotlin_com_airi_odslm_ui_components_bottomnavbar_bottomnavbar",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/ui/components/BottomNavBar.kt",
+      "source_location": "L26",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_ui_components_bottomnavbar_bottomnavbar",
+      "target": "app_src_main_kotlin_com_airi_odslm_ui_components_bottomnavbar_appdestination",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/ui/components/BottomNavBar.kt",
+      "source_location": "L26",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_ui_components_chatbubble",
+      "target": "app_src_main_kotlin_com_airi_odslm_ui_components_chatbubble_chatbubble",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/ui/components/ChatBubble.kt",
+      "source_location": "L33",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_ui_components_chatbubble_chatbubble",
+      "target": "app_src_main_kotlin_com_airi_odslm_viewmodel_chatuistate_chatmessage",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/ui/components/ChatBubble.kt",
+      "source_location": "L33",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_ui_screens_characterscreen",
+      "target": "app_src_main_kotlin_com_airi_odslm_ui_screens_characterscreen_characterscreen",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/ui/screens/CharacterScreen.kt",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_ui_screens_chatscreen",
+      "target": "app_src_main_kotlin_com_airi_odslm_ui_screens_chatscreen_chatscreen",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/ui/screens/ChatScreen.kt",
+      "source_location": "L53",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_ui_screens_chatscreen_chatscreen",
+      "target": "app_src_main_kotlin_com_airi_odslm_viewmodel_chatviewmodel_chatviewmodel",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/ui/screens/ChatScreen.kt",
+      "source_location": "L53",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_ui_screens_libraryscreen",
+      "target": "app_src_main_kotlin_com_airi_odslm_ui_screens_libraryscreen_libraryscreen",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/ui/screens/LibraryScreen.kt",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_ui_screens_mainapp",
+      "target": "app_src_main_kotlin_com_airi_odslm_ui_screens_mainapp_mainapp",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/ui/screens/MainApp.kt",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_ui_screens_mainapp_mainapp",
+      "target": "app_src_main_kotlin_com_airi_odslm_viewmodel_chatviewmodel_chatviewmodel",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/ui/screens/MainApp.kt",
+      "source_location": "L17",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_ui_theme_theme",
+      "target": "app_src_main_kotlin_com_airi_odslm_ui_theme_theme_airitheme",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/ui/theme/Theme.kt",
+      "source_location": "L28",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_util_imageprocessor",
+      "target": "app_src_main_kotlin_com_airi_odslm_util_imageprocessor_imageprocessor",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/util/ImageProcessor.kt",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_util_imageprocessor_imageprocessor",
+      "target": "app_src_main_kotlin_com_airi_odslm_util_imageprocessor_imageprocessor_processimage",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/util/ImageProcessor.kt",
+      "source_location": "L33",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_util_imageprocessor_imageprocessor_processimage",
+      "target": "app_src_main_kotlin_com_airi_odslm_util_imageprocessor_kt_context",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/util/ImageProcessor.kt",
+      "source_location": "L33",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_util_imageprocessor_imageprocessor_processimage",
+      "target": "app_src_main_kotlin_com_airi_odslm_util_imageprocessor_kt_uri",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/util/ImageProcessor.kt",
+      "source_location": "L33",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_util_imageprocessor_imageprocessor_processimage",
+      "target": "app_src_main_kotlin_com_airi_odslm_util_imageprocessor_kt_bytearray",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/util/ImageProcessor.kt",
+      "source_location": "L33",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_util_imageprocessor_imageprocessor",
+      "target": "app_src_main_kotlin_com_airi_odslm_util_imageprocessor_imageprocessor_resize",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/util/ImageProcessor.kt",
+      "source_location": "L60",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_util_imageprocessor_imageprocessor_resize",
+      "target": "bitmap",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/util/ImageProcessor.kt",
+      "source_location": "L60",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_util_imageprocessor_imageprocessor_resize",
+      "target": "bitmap",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/util/ImageProcessor.kt",
+      "source_location": "L60",
+      "weight": 1.0,
+      "context": "return_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_util_imageprocessor_imageprocessor_processimage",
+      "target": "app_src_main_kotlin_com_airi_odslm_util_imageprocessor_imageprocessor_resize",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/util/ImageProcessor.kt",
+      "source_location": "L43",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_util_inputvalidator",
+      "target": "app_src_main_kotlin_com_airi_odslm_util_inputvalidator_inputvalidator",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/util/InputValidator.kt",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_util_inputvalidator_inputvalidator",
+      "target": "app_src_main_kotlin_com_airi_odslm_util_inputvalidator_inputvalidator_validatetext",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/util/InputValidator.kt",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_util_inputvalidator_inputvalidator",
+      "target": "app_src_main_kotlin_com_airi_odslm_util_inputvalidator_inputvalidator_validateimage",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/util/InputValidator.kt",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_util_inputvalidator_inputvalidator_validateimage",
+      "target": "app_src_main_kotlin_com_airi_odslm_util_inputvalidator_kt_context",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/util/InputValidator.kt",
+      "source_location": "L19",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_util_inputvalidator_inputvalidator_validateimage",
+      "target": "app_src_main_kotlin_com_airi_odslm_util_inputvalidator_kt_uri",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/util/InputValidator.kt",
+      "source_location": "L19",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_util_outputfilter",
+      "target": "app_src_main_kotlin_com_airi_odslm_util_outputfilter_outputfilter",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/util/OutputFilter.kt",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_util_outputfilter_outputfilter",
+      "target": "app_src_main_kotlin_com_airi_odslm_util_outputfilter_outputfilter_issafe",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/util/OutputFilter.kt",
+      "source_location": "L18",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_util_performancemonitor",
+      "target": "app_src_main_kotlin_com_airi_odslm_util_performancemonitor_performancemonitor",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/util/PerformanceMonitor.kt",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_util_performancemonitor_performancemonitor",
+      "target": "app_src_main_kotlin_com_airi_odslm_util_performancemonitor_performancemonitor_logthermalstatus",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/util/PerformanceMonitor.kt",
+      "source_location": "L23",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_util_performancemonitor_performancemonitor",
+      "target": "app_src_main_kotlin_com_airi_odslm_util_performancemonitor_performancemonitor_logttft",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/util/PerformanceMonitor.kt",
+      "source_location": "L38",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_util_performancemonitor_performancemonitor",
+      "target": "app_src_main_kotlin_com_airi_odslm_util_performancemonitor_performancemonitor_logtotaltime",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/util/PerformanceMonitor.kt",
+      "source_location": "L46",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_viewmodel_chatuistate",
+      "target": "app_src_main_kotlin_com_airi_odslm_viewmodel_chatuistate_chatmessage",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/viewmodel/ChatUiState.kt",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_viewmodel_chatuistate",
+      "target": "app_src_main_kotlin_com_airi_odslm_viewmodel_chatuistate_chatuistate",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/viewmodel/ChatUiState.kt",
+      "source_location": "L26",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_viewmodel_chatviewmodel",
+      "target": "app_src_main_kotlin_com_airi_odslm_viewmodel_chatviewmodel_chatviewmodel",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/viewmodel/ChatViewModel.kt",
+      "source_location": "L37",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_viewmodel_chatviewmodel_chatviewmodel",
+      "target": "viewmodel",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/viewmodel/ChatViewModel.kt",
+      "source_location": "L37",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_viewmodel_chatviewmodel_chatviewmodel",
+      "target": "stateflow",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/viewmodel/ChatViewModel.kt",
+      "source_location": "L43",
+      "weight": 1.0,
+      "context": "field",
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_viewmodel_chatviewmodel_chatviewmodel",
+      "target": "app_src_main_kotlin_com_airi_odslm_viewmodel_chatuistate_chatuistate",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/viewmodel/ChatViewModel.kt",
+      "source_location": "L43",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_viewmodel_chatviewmodel_chatviewmodel",
+      "target": "app_src_main_kotlin_com_airi_odslm_viewmodel_chatviewmodel_chatviewmodel_attachimage",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/viewmodel/ChatViewModel.kt",
+      "source_location": "L88",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_viewmodel_chatviewmodel_chatviewmodel_attachimage",
+      "target": "app_src_main_kotlin_com_airi_odslm_viewmodel_chatviewmodel_kt_uri",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/viewmodel/ChatViewModel.kt",
+      "source_location": "L88",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_viewmodel_chatviewmodel_chatviewmodel",
+      "target": "app_src_main_kotlin_com_airi_odslm_viewmodel_chatviewmodel_chatviewmodel_clearpendingimage",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/viewmodel/ChatViewModel.kt",
+      "source_location": "L93",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_viewmodel_chatviewmodel_chatviewmodel",
+      "target": "app_src_main_kotlin_com_airi_odslm_viewmodel_chatviewmodel_chatviewmodel_sendprompt",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/viewmodel/ChatViewModel.kt",
+      "source_location": "L103",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_viewmodel_chatviewmodel_chatviewmodel",
+      "target": "app_src_main_kotlin_com_airi_odslm_viewmodel_chatviewmodel_chatviewmodel_clearerror",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/viewmodel/ChatViewModel.kt",
+      "source_location": "L144",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_viewmodel_chatviewmodel_chatviewmodel",
+      "target": "app_src_main_kotlin_com_airi_odslm_viewmodel_chatviewmodel_chatviewmodel_oncleared",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/viewmodel/ChatViewModel.kt",
+      "source_location": "L148",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_viewmodel_chatviewmodel_chatviewmodel",
+      "target": "app_src_main_kotlin_com_airi_odslm_viewmodel_chatviewmodel_factory",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/viewmodel/ChatViewModel.kt",
+      "source_location": "L157",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_viewmodel_chatviewmodel_factory",
+      "target": "viewmodelprovider",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/viewmodel/ChatViewModel.kt",
+      "source_location": "L157",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_viewmodel_chatviewmodel_factory",
+      "target": "app_src_main_kotlin_com_airi_odslm_viewmodel_chatviewmodel_factory_create",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/viewmodel/ChatViewModel.kt",
+      "source_location": "L158",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_viewmodel_chatviewmodel_factory_create",
+      "target": "t",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/viewmodel/ChatViewModel.kt",
+      "source_location": "L158",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_viewmodel_chatviewmodel_factory_create",
+      "target": "t",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/viewmodel/ChatViewModel.kt",
+      "source_location": "L158",
+      "weight": 1.0,
+      "context": "return_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_viewmodel_chatviewmodel_factory_create",
+      "target": "app_src_main_kotlin_com_airi_odslm_viewmodel_chatviewmodel_chatviewmodel",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/viewmodel/ChatViewModel.kt",
+      "source_location": "L163",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_viewmodel_inferencemanager",
+      "target": "app_src_main_kotlin_com_airi_odslm_viewmodel_inferencemanager_inferencemanager",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/viewmodel/InferenceManager.kt",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_viewmodel_inferencemanager_inferencemanager",
+      "target": "app_src_main_kotlin_com_airi_odslm_viewmodel_inferencemanager_inferencemanager_loadmodel",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/viewmodel/InferenceManager.kt",
+      "source_location": "L29",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_viewmodel_inferencemanager_inferencemanager",
+      "target": "app_src_main_kotlin_com_airi_odslm_viewmodel_inferencemanager_inferencemanager_infer",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/viewmodel/InferenceManager.kt",
+      "source_location": "L49",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_viewmodel_inferencemanager_inferencemanager_infer",
+      "target": "app_src_main_kotlin_com_airi_odslm_viewmodel_inferencemanager_kt_uri",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/viewmodel/InferenceManager.kt",
+      "source_location": "L49",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_viewmodel_inferencemanager_inferencemanager",
+      "target": "app_src_main_kotlin_com_airi_odslm_viewmodel_inferencemanager_inferencemanager_unloadmodel",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/kotlin/com/airi/odslm/viewmodel/InferenceManager.kt",
+      "source_location": "L95",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_test_kotlin_com_airi_odslm_chatviewmodeltest",
+      "target": "app_src_test_kotlin_com_airi_odslm_chatviewmodeltest_chatviewmodeltest",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/test/kotlin/com/airi/odslm/ChatViewModelTest.kt",
+      "source_location": "L34",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_test_kotlin_com_airi_odslm_chatviewmodeltest_chatviewmodeltest",
+      "target": "app_src_main_kotlin_com_airi_odslm_data_chatrepository_chatrepository",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/test/kotlin/com/airi/odslm/ChatViewModelTest.kt",
+      "source_location": "L38",
+      "weight": 1.0,
+      "context": "field",
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_test_kotlin_com_airi_odslm_chatviewmodeltest_chatviewmodeltest",
+      "target": "app_src_main_kotlin_com_airi_odslm_viewmodel_inferencemanager_inferencemanager",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/test/kotlin/com/airi/odslm/ChatViewModelTest.kt",
+      "source_location": "L39",
+      "weight": 1.0,
+      "context": "field",
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_test_kotlin_com_airi_odslm_chatviewmodeltest_chatviewmodeltest",
+      "target": "app_src_main_kotlin_com_airi_odslm_viewmodel_chatviewmodel_chatviewmodel",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/test/kotlin/com/airi/odslm/ChatViewModelTest.kt",
+      "source_location": "L40",
+      "weight": 1.0,
+      "context": "field",
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_test_kotlin_com_airi_odslm_chatviewmodeltest_chatviewmodeltest",
+      "target": "app_src_test_kotlin_com_airi_odslm_chatviewmodeltest_chatviewmodeltest_setup",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/test/kotlin/com/airi/odslm/ChatViewModelTest.kt",
+      "source_location": "L42",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_test_kotlin_com_airi_odslm_chatviewmodeltest_chatviewmodeltest",
+      "target": "app_src_test_kotlin_com_airi_odslm_chatviewmodeltest_chatviewmodeltest_teardown",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/test/kotlin/com/airi/odslm/ChatViewModelTest.kt",
+      "source_location": "L52",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_test_kotlin_com_airi_odslm_chatviewmodeltest_chatviewmodeltest",
+      "target": "app_src_test_kotlin_com_airi_odslm_chatviewmodeltest_chatviewmodeltest_initial_state_has_empty_messages_and_is_not_loading",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/test/kotlin/com/airi/odslm/ChatViewModelTest.kt",
+      "source_location": "L57",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_test_kotlin_com_airi_odslm_chatviewmodeltest_chatviewmodeltest",
+      "target": "app_src_test_kotlin_com_airi_odslm_chatviewmodeltest_chatviewmodeltest_attachimage_stores_uri_in_pendingimageuri",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/test/kotlin/com/airi/odslm/ChatViewModelTest.kt",
+      "source_location": "L66",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_test_kotlin_com_airi_odslm_chatviewmodeltest_chatviewmodeltest",
+      "target": "app_src_test_kotlin_com_airi_odslm_chatviewmodeltest_chatviewmodeltest_clearpendingimage_removes_uri_from_state",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/test/kotlin/com/airi/odslm/ChatViewModelTest.kt",
+      "source_location": "L73",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_test_kotlin_com_airi_odslm_chatviewmodeltest_chatviewmodeltest",
+      "target": "app_src_test_kotlin_com_airi_odslm_chatviewmodeltest_chatviewmodeltest_sendprompt_with_blank_text_does_nothing",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/test/kotlin/com/airi/odslm/ChatViewModelTest.kt",
+      "source_location": "L81",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_test_kotlin_com_airi_odslm_chatviewmodeltest_chatviewmodeltest",
+      "target": "app_src_test_kotlin_com_airi_odslm_chatviewmodeltest_chatviewmodeltest_sendprompt_sets_isloading_true_then_false",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/test/kotlin/com/airi/odslm/ChatViewModelTest.kt",
+      "source_location": "L89",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_test_kotlin_com_airi_odslm_chatviewmodeltest_chatviewmodeltest",
+      "target": "app_src_test_kotlin_com_airi_odslm_chatviewmodeltest_chatviewmodeltest_sendprompt_clears_pendingimageuri_after_sending",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/test/kotlin/com/airi/odslm/ChatViewModelTest.kt",
+      "source_location": "L104",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_test_kotlin_com_airi_odslm_chatviewmodeltest_chatviewmodeltest",
+      "target": "app_src_test_kotlin_com_airi_odslm_chatviewmodeltest_chatviewmodeltest_sendprompt_saves_user_message_and_model_response_to_repository",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/test/kotlin/com/airi/odslm/ChatViewModelTest.kt",
+      "source_location": "L116",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_test_kotlin_com_airi_odslm_chatviewmodeltest_chatviewmodeltest",
+      "target": "app_src_test_kotlin_com_airi_odslm_chatviewmodeltest_chatviewmodeltest_sendprompt_saves_message_with_correct_user_role",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/test/kotlin/com/airi/odslm/ChatViewModelTest.kt",
+      "source_location": "L128",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_test_kotlin_com_airi_odslm_chatviewmodeltest_chatviewmodeltest",
+      "target": "app_src_test_kotlin_com_airi_odslm_chatviewmodeltest_chatviewmodeltest_clearerror_removes_error_from_state",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/test/kotlin/com/airi/odslm/ChatViewModelTest.kt",
+      "source_location": "L140",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_test_kotlin_com_airi_odslm_chatviewmodeltest_chatviewmodeltest",
+      "target": "app_src_test_kotlin_com_airi_odslm_chatviewmodeltest_chatviewmodeltest_sendprompt_with_too_long_text_sets_error_and_aborts",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/test/kotlin/com/airi/odslm/ChatViewModelTest.kt",
+      "source_location": "L148",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_test_kotlin_com_airi_odslm_chatviewmodeltest_chatviewmodeltest",
+      "target": "app_src_test_kotlin_com_airi_odslm_chatviewmodeltest_chatviewmodeltest_sendprompt_uses_outputfilter_and_falls_back_on_dangerous_content",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/test/kotlin/com/airi/odslm/ChatViewModelTest.kt",
+      "source_location": "L158",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_test_kotlin_com_airi_odslm_chatviewmodeltest_chatviewmodeltest_setup",
+      "target": "app_src_main_kotlin_com_airi_odslm_viewmodel_chatviewmodel_chatviewmodel",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/test/kotlin/com/airi/odslm/ChatViewModelTest.kt",
+      "source_location": "L49",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_test_kotlin_com_airi_odslm_util_imageprocessortest",
+      "target": "app_src_test_kotlin_com_airi_odslm_util_imageprocessortest_imageprocessortest",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/test/kotlin/com/airi/odslm/util/ImageProcessorTest.kt",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_test_kotlin_com_airi_odslm_util_imageprocessortest_imageprocessortest",
+      "target": "app_src_test_kotlin_com_airi_odslm_util_imageprocessortest_kt_context",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/test/kotlin/com/airi/odslm/util/ImageProcessorTest.kt",
+      "source_location": "L22",
+      "weight": 1.0,
+      "context": "field",
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_test_kotlin_com_airi_odslm_util_imageprocessortest_imageprocessortest",
+      "target": "contentresolver",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/test/kotlin/com/airi/odslm/util/ImageProcessorTest.kt",
+      "source_location": "L23",
+      "weight": 1.0,
+      "context": "field",
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_test_kotlin_com_airi_odslm_util_imageprocessortest_imageprocessortest",
+      "target": "app_src_test_kotlin_com_airi_odslm_util_imageprocessortest_kt_uri",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/test/kotlin/com/airi/odslm/util/ImageProcessorTest.kt",
+      "source_location": "L24",
+      "weight": 1.0,
+      "context": "field",
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_test_kotlin_com_airi_odslm_util_imageprocessortest_imageprocessortest",
+      "target": "app_src_test_kotlin_com_airi_odslm_util_imageprocessortest_imageprocessortest_processimage_returns_null_when_uri_stream_cannot_be_opened",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/test/kotlin/com/airi/odslm/util/ImageProcessorTest.kt",
+      "source_location": "L30",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_test_kotlin_com_airi_odslm_util_imageprocessortest_imageprocessortest",
+      "target": "app_src_test_kotlin_com_airi_odslm_util_imageprocessortest_imageprocessortest_processimage_returns_null_when_stream_contains_non_image_bytes",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/test/kotlin/com/airi/odslm/util/ImageProcessorTest.kt",
+      "source_location": "L39",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_test_kotlin_com_airi_odslm_util_imageprocessortest_imageprocessortest",
+      "target": "app_src_test_kotlin_com_airi_odslm_util_imageprocessortest_imageprocessortest_processimage_returns_null_on_contentresolver_exception",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/test/kotlin/com/airi/odslm/util/ImageProcessorTest.kt",
+      "source_location": "L50",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_test_kotlin_com_airi_odslm_util_inputvalidatortest",
+      "target": "app_src_test_kotlin_com_airi_odslm_util_inputvalidatortest_inputvalidatortest",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/test/kotlin/com/airi/odslm/util/InputValidatorTest.kt",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_test_kotlin_com_airi_odslm_util_inputvalidatortest_inputvalidatortest",
+      "target": "app_src_test_kotlin_com_airi_odslm_util_inputvalidatortest_inputvalidatortest_validatetext_returns_true_for_valid_text",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/test/kotlin/com/airi/odslm/util/InputValidatorTest.kt",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_test_kotlin_com_airi_odslm_util_inputvalidatortest_inputvalidatortest",
+      "target": "app_src_test_kotlin_com_airi_odslm_util_inputvalidatortest_inputvalidatortest_validatetext_returns_false_for_blank_text",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/test/kotlin/com/airi/odslm/util/InputValidatorTest.kt",
+      "source_location": "L21",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_test_kotlin_com_airi_odslm_util_inputvalidatortest_inputvalidatortest",
+      "target": "app_src_test_kotlin_com_airi_odslm_util_inputvalidatortest_inputvalidatortest_validatetext_returns_false_for_text_exceeding_max_length",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/test/kotlin/com/airi/odslm/util/InputValidatorTest.kt",
+      "source_location": "L28",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_test_kotlin_com_airi_odslm_util_outputfiltertest",
+      "target": "app_src_test_kotlin_com_airi_odslm_util_outputfiltertest_outputfiltertest",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/test/kotlin/com/airi/odslm/util/OutputFilterTest.kt",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_test_kotlin_com_airi_odslm_util_outputfiltertest_outputfiltertest",
+      "target": "app_src_test_kotlin_com_airi_odslm_util_outputfiltertest_outputfiltertest_issafe_returns_false_for_dangerous_keywords",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/test/kotlin/com/airi/odslm/util/OutputFilterTest.kt",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_test_kotlin_com_airi_odslm_util_outputfiltertest_outputfiltertest",
+      "target": "app_src_test_kotlin_com_airi_odslm_util_outputfiltertest_outputfiltertest_issafe_returns_false_regardless_of_case",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/test/kotlin/com/airi/odslm/util/OutputFilterTest.kt",
+      "source_location": "L26",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_test_kotlin_com_airi_odslm_util_outputfiltertest_outputfiltertest",
+      "target": "app_src_test_kotlin_com_airi_odslm_util_outputfiltertest_outputfiltertest_issafe_returns_true_for_safe_content",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/test/kotlin/com/airi/odslm/util/OutputFilterTest.kt",
+      "source_location": "L32",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_test_kotlin_com_airi_odslm_util_outputfiltertest_outputfiltertest",
+      "target": "app_src_test_kotlin_com_airi_odslm_util_outputfiltertest_outputfiltertest_issafe_returns_true_for_empty_or_blank_text",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/test/kotlin/com/airi/odslm/util/OutputFilterTest.kt",
+      "source_location": "L46",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "gradlew",
+      "target": "gradlew__entry",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "gradlew",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "gradlew",
+      "target": "gradlew_warn",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "gradlew",
+      "source_location": "L92",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "gradlew",
+      "target": "gradlew_die",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "gradlew",
+      "source_location": "L96",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "gradlew__entry",
+      "target": "gradlew_die",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "gradlew",
+      "source_location": "L127",
+      "weight": 1.0,
+      "context": "call",
+      "_origin": "ast"
+    },
+    {
+      "source": "gradlew__entry",
+      "target": "gradlew_warn",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "gradlew",
+      "source_location": "L150",
+      "weight": 1.0,
+      "context": "call",
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_androidtest_kotlin_com_airi_odslm_chatrepositorytest_chatrepositorytest_savemessage_inserts_message_and_getallmessages_emits_it",
+      "target": "app_src_main_kotlin_com_airi_odslm_data_chatentity_chatentity",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "app/src/androidTest/kotlin/com/airi/odslm/ChatRepositoryTest.kt",
+      "source_location": "L48",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_androidtest_kotlin_com_airi_odslm_chatrepositorytest_chatrepositorytest_savemessage_with_assistant_role_stores_correct_role",
+      "target": "app_src_main_kotlin_com_airi_odslm_data_chatentity_chatentity",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "app/src/androidTest/kotlin/com/airi/odslm/ChatRepositoryTest.kt",
+      "source_location": "L71",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_androidtest_kotlin_com_airi_odslm_chatrepositorytest_chatrepositorytest_savemessage_with_imagepath_stores_path_correctly",
+      "target": "app_src_main_kotlin_com_airi_odslm_data_chatentity_chatentity",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "app/src/androidTest/kotlin/com/airi/odslm/ChatRepositoryTest.kt",
+      "source_location": "L86",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_androidtest_kotlin_com_airi_odslm_chatrepositorytest_chatrepositorytest_messages_are_ordered_by_timestamp_ascending",
+      "target": "app_src_main_kotlin_com_airi_odslm_data_chatentity_chatentity",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "app/src/androidTest/kotlin/com/airi/odslm/ChatRepositoryTest.kt",
+      "source_location": "L100",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_androidtest_kotlin_com_airi_odslm_chatrepositorytest_chatrepositorytest_clearhistory_removes_all_messages",
+      "target": "app_src_main_kotlin_com_airi_odslm_data_chatentity_chatentity",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "app/src/androidTest/kotlin/com/airi/odslm/ChatRepositoryTest.kt",
+      "source_location": "L115",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_androidtest_kotlin_com_airi_odslm_chatrepositorytest_chatrepositorytest_savemessage_with_empty_content_returns_success",
+      "target": "app_src_main_kotlin_com_airi_odslm_data_chatentity_chatentity",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "app/src/androidTest/kotlin/com/airi/odslm/ChatRepositoryTest.kt",
+      "source_location": "L128",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_androidtest_kotlin_com_airi_odslm_chatrepositorytest_chatrepositorytest_savemessage_with_very_long_content_stores_correctly",
+      "target": "app_src_main_kotlin_com_airi_odslm_data_chatentity_chatentity",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "app/src/androidTest/kotlin/com/airi/odslm/ChatRepositoryTest.kt",
+      "source_location": "L136",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_ui_chatactivity_chatactivity_oncreate",
+      "target": "app_src_main_kotlin_com_airi_odslm_ui_theme_theme_airitheme",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "app/src/main/kotlin/com/airi/odslm/ui/ChatActivity.kt",
+      "source_location": "L26",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_ui_chatactivity_chatactivity_oncreate",
+      "target": "app_src_main_kotlin_com_airi_odslm_ui_screens_mainapp_mainapp",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "app/src/main/kotlin/com/airi/odslm/ui/ChatActivity.kt",
+      "source_location": "L27",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_ui_screens_chatscreen_chatscreen",
+      "target": "app_src_main_kotlin_com_airi_odslm_ui_components_chatbubble_chatbubble",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "app/src/main/kotlin/com/airi/odslm/ui/screens/ChatScreen.kt",
+      "source_location": "L95",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_ui_screens_mainapp_mainapp",
+      "target": "app_src_main_kotlin_com_airi_odslm_ui_components_bottomnavbar_bottomnavbar",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "app/src/main/kotlin/com/airi/odslm/ui/screens/MainApp.kt",
+      "source_location": "L23",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_ui_screens_mainapp_mainapp",
+      "target": "app_src_main_kotlin_com_airi_odslm_ui_screens_chatscreen_chatscreen",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "app/src/main/kotlin/com/airi/odslm/ui/screens/MainApp.kt",
+      "source_location": "L32",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_ui_screens_mainapp_mainapp",
+      "target": "app_src_main_kotlin_com_airi_odslm_ui_screens_characterscreen_characterscreen",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "app/src/main/kotlin/com/airi/odslm/ui/screens/MainApp.kt",
+      "source_location": "L33",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_ui_screens_mainapp_mainapp",
+      "target": "app_src_main_kotlin_com_airi_odslm_ui_screens_libraryscreen_libraryscreen",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "app/src/main/kotlin/com/airi/odslm/ui/screens/MainApp.kt",
+      "source_location": "L34",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_viewmodel_chatviewmodel_chatviewmodel_sendprompt",
+      "target": "app_src_main_kotlin_com_airi_odslm_data_chatentity_chatentity",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "app/src/main/kotlin/com/airi/odslm/viewmodel/ChatViewModel.kt",
+      "source_location": "L115",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_viewmodel_chatviewmodel_factory_create",
+      "target": "app_src_main_kotlin_com_airi_odslm_data_chatrepository_chatrepository",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "app/src/main/kotlin/com/airi/odslm/viewmodel/ChatViewModel.kt",
+      "source_location": "L161",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_src_main_kotlin_com_airi_odslm_viewmodel_chatviewmodel_factory_create",
+      "target": "app_src_main_kotlin_com_airi_odslm_viewmodel_inferencemanager_inferencemanager",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "app/src/main/kotlin/com/airi/odslm/viewmodel/ChatViewModel.kt",
+      "source_location": "L162",
+      "weight": 1.0,
+      "_origin": "ast"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

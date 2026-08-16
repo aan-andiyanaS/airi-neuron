@@ -9,6 +9,8 @@ import com.airi.odslm.data.ChatEntity
 import com.airi.odslm.data.ChatRepository
 import com.airi.odslm.data.MessageRole
 import android.content.Context
+import com.airi.odslm.util.InputValidator
+import com.airi.odslm.util.OutputFilter
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
@@ -32,7 +34,16 @@ import kotlinx.coroutines.launch
  * - [ImageProcessor] is called here (Task 7), not in the Activity.
  * - [InferenceManager] is owned here and cancelled in [onCleared].
  */
-class ChatViewModel(private val repository: ChatRepository) : ViewModel() {
+class ChatViewModel(
+    private val repository: ChatRepository,
+    private val inferenceManager: InferenceManager
+) : ViewModel() {
+
+    companion object {
+        private const val MODEL_PATH = "/sdcard/minicpm-v-4.6.Q4_K_M.gguf"
+        private const val MMPROJ_PATH = "/sdcard/mmproj-model-f16.gguf"
+        private const val CONTEXT_SIZE = 1024
+    }
 
     private val _uiState = MutableStateFlow(ChatUiState())
     val uiState: StateFlow<ChatUiState> = _uiState.asStateFlow()
@@ -57,6 +68,20 @@ class ChatViewModel(private val repository: ChatRepository) : ViewModel() {
                 _uiState.update { it.copy(error = "Failed to load history: ${error.message}") }
             }
             .launchIn(viewModelScope)
+
+        // Pre-load model on startup (Phase 1 hardcoded paths per Setup doc)
+        viewModelScope.launch {
+            _uiState.update { it.copy(isLoading = true) }
+            val success = inferenceManager.loadModel(
+                modelPath = MODEL_PATH,
+                mmProjPath = MMPROJ_PATH,
+                contextSize = CONTEXT_SIZE
+            )
+            if (!success) {
+                _uiState.update { it.copy(error = "Warning: Failed to load model from /sdcard. Check files.") }
+            }
+            _uiState.update { it.copy(isLoading = false) }
+        }
     }
 
     /**
@@ -82,10 +107,13 @@ class ChatViewModel(private val repository: ChatRepository) : ViewModel() {
      * This validates the state flow and persistence pipeline independently.
      */
     fun sendPrompt(text: String) {
-        if (text.isBlank()) return
+        if (!InputValidator.validateText(text)) {
+            _uiState.update { it.copy(error = "Text exceeds maximum length.") }
+            return
+        }
 
         val imageUri = _uiState.value.pendingImageUri
-
+        
         viewModelScope.launch {
             _uiState.update { it.copy(isLoading = true, pendingImageUri = null, error = null) }
 
@@ -95,16 +123,35 @@ class ChatViewModel(private val repository: ChatRepository) : ViewModel() {
                 content = text,
                 imagePath = imageUri?.toString()
             )
-            repository.saveMessage(userMessage)
+            val userSaveResult = repository.saveMessage(userMessage)
+            if (userSaveResult.isFailure) {
+                _uiState.update { it.copy(isLoading = false, error = "Failed to save message to storage.") }
+                return@launch
+            }
 
-            // TODO (Task 7): call InferenceManager.infer(text, imageBytes) here.
-            // For now, emit a placeholder to confirm the UI pipeline works end-to-end.
-            val placeholderResponse = ChatEntity(
-                role = MessageRole.ASSISTANT,
-                content = "[Inference not yet wired — Task 7]",
-                imagePath = null
-            )
-            repository.saveMessage(placeholderResponse)
+            // Inference
+            val inferenceResult = inferenceManager.infer(text, imageUri)
+            
+            inferenceResult.onSuccess { rawResponse ->
+                // Security Filter
+                val safeResponse = if (OutputFilter.isSafe(rawResponse)) {
+                    rawResponse
+                } else {
+                    "Maaf, saya tidak dapat merespons permintaan tersebut (Terfilter)."
+                }
+
+                val assistantMessage = ChatEntity(
+                    role = MessageRole.ASSISTANT,
+                    content = safeResponse,
+                    imagePath = null
+                )
+                val assistantSaveResult = repository.saveMessage(assistantMessage)
+                if (assistantSaveResult.isFailure) {
+                    _uiState.update { it.copy(error = "Warning: Failed to save AI response to storage.") }
+                }
+            }.onFailure { error ->
+                _uiState.update { it.copy(error = error.message ?: "Unknown inference error occurred.") }
+            }
 
             _uiState.update { it.copy(isLoading = false) }
         }
@@ -117,7 +164,7 @@ class ChatViewModel(private val repository: ChatRepository) : ViewModel() {
 
     override fun onCleared() {
         super.onCleared()
-        // TODO (Task 7): cancel InferenceManager coroutine scope here.
+        inferenceManager.unloadModel()
     }
 
     /**
@@ -129,7 +176,8 @@ class ChatViewModel(private val repository: ChatRepository) : ViewModel() {
         override fun <T : ViewModel> create(modelClass: Class<T>): T {
             val dao = AppDatabase.getInstance(context).chatDao()
             val repository = ChatRepository(dao)
-            return ChatViewModel(repository) as T
+            val inferenceManager = InferenceManager(context.applicationContext)
+            return ChatViewModel(repository, inferenceManager) as T
         }
     }
 }

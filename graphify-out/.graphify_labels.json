@@ -1,0 +1,22 @@
+{
+  "0": "LlamaCpp JNI Native Layer",
+  "1": "Data Repository & Entities",
+  "2": "Chat UI Components & ViewModel",
+  "3": "Inference Manager & Tests",
+  "4": "UI Navigation & Core Screens",
+  "5": "Room Database & DAOs",
+  "6": "Image Processing Utilities",
+  "7": "Image Processing Tests",
+  "8": "JNI Bridge Interfaces",
+  "9": "Input Validator Utilities",
+  "10": "Output Filter Tests",
+  "11": "Performance Monitor Utilities",
+  "12": "Input Validator Tests",
+  "13": "Gradle Wrapper Scripts",
+  "14": "Output Filter Utilities",
+  "15": "App Gradle Configuration",
+  "16": "UI Theme Colors",
+  "17": "UI Theme Typography",
+  "18": "Project Gradle Configuration",
+  "19": "Project Settings Configuration"
+}

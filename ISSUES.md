@@ -366,4 +366,31 @@ cd e:\Project\AIRI\odslm
 
 ---
 
-*Terakhir diperbarui: 2026-08-16 oleh Antigravity AI*
+## ✅ CHECKPOINT 2 — MAJOR REFACTOR & JNI INTEGRATION (2026-08-17)
+
+**Deskripsi Perubahan:**
+Sejak commit terakhir, proyek telah melalui banyak pembaruan arsitektur besar, termasuk migrasi UI, integrasi JNI C++, dan pembersihan kode. Seluruh aplikasi sekarang sudah dapat dikompilasi dengan lancar (`BUILD SUCCESSFUL`).
+
+### 🚀 Fitur & Integrasi Baru
+1. **Llama.cpp & NDK JNI Bridge (`Task 5-7`)**
+   - Menambahkan `llama.cpp` sebagai git submodule.
+   - Mengimplementasikan `LlamaCppBridge.cpp` (C++) dan `LlamaCppBridge.kt` (Kotlin) untuk mengeksekusi model SLM secara langsung di perangkat.
+   - Membuat `InferenceManager.kt` untuk menangani *thread* latar belakang dan alokasi memori model.
+
+2. **Security & Validation Layer (`Task 8`)**
+   - Menambahkan `InputValidator` (panjang maksimal & ukuran file gambar).
+   - Menambahkan `OutputFilter` untuk menyaring teks keluaran dari model.
+
+3. **Migrasi Penuh ke Jetpack Compose (`Task 10`)**
+   - Menghapus total semua *XML Layouts* (`activity_chat.xml`, `item_chat_user.xml`) dan `ChatAdapter.kt`.
+   - Membuat komponen UI modern (Material 3) dengan Compose: `ChatScreen`, `ChatBubble`, `BottomNavBar`, `LibraryScreen`, `SettingsScreen`, dsb.
+   - Tema *Dark Mode* (Default Stitch: pure black `#000000`) dan *Light Mode* kini sepenuhnya didukung dan dikelola melalui `ThemePreferences`.
+
+### 🧹 Perbaikan Dokumentasi & Clean Code
+- **Generalisasi Use-Case:** Menghapus seluruh referensi penggunaan spesifik "Tunanetra" dari `README.md`, `01_SRS_Phase1.md`, dan `04_Risk_Management.md`. Proyek kini diposisikan sebagai "Asisten AI luring terpadu" secara umum.
+- **Clean Code Audit:** Memperbaiki *error handling* di `InferenceManager` agar mereturn `Result<String>`, menghapus penggunaan `GlobalScope` yang rentan bocor memori, serta mengekstrak *magic strings* di `ChatViewModel`.
+- **Compiler Warnings:** Memperbaiki _unused parameter_ dan API Compose yang _deprecated_ (contoh: `Icons.Default.Send` menjadi `Icons.AutoMirrored.Filled.Send`).
+
+---
+
+*Terakhir diperbarui: 2026-08-17 oleh Antigravity AI*
