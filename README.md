@@ -6,7 +6,7 @@
 [![CI](https://github.com/your-repo/AIRI/actions/workflows/ci.yml/badge.svg)](https://github.com/your-repo/AIRI/actions/workflows/ci.yml)
 ![Platform](https://img.shields.io/badge/platform-Android%2010%2B-green)
 ![ABI](https://img.shields.io/badge/ABI-arm64--v8a-blue)
-![License](https://img.shields.io/badge/license-Academic%20Only-lightgrey)
+![License](https://img.shields.io/badge/license-MIT-green)
 
 ---
 
@@ -204,4 +204,5 @@ Ke depan, AIRI Neuron akan menjadi salah satu komponen yang dipanggil oleh siste
 
 ## Lisensi
 
-Akademik / Skripsi. Hak cipta dilindungi. Tidak untuk distribusi komersial.
+Dirilis di bawah [MIT License](LICENSE).
+Copyright (c) 2026 Aan Andiyana Sandi
