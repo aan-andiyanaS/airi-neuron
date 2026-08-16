@@ -3,7 +3,7 @@
 > **On-Device Multimodal AI Module** — komponen inferensi lokal dari ekosistem [AIRI](https://github.com/moeru-ai/airi).
 > Ditenagai oleh [MiniCPM-V 4.6](https://github.com/OpenBMB/MiniCPM-V) via [llama.cpp](https://github.com/ggml-org/llama.cpp) — menerima teks dan gambar, menghasilkan respons sepenuhnya di perangkat Android tanpa internet.
 
-[![CI](https://github.com/your-repo/AIRI/actions/workflows/ci.yml/badge.svg)](https://github.com/your-repo/AIRI/actions/workflows/ci.yml)
+[![CI](https://github.com/aan-andiyanaS/airi-neuron/actions/workflows/ci.yml/badge.svg)](https://github.com/aan-andiyanaS/airi-neuron/actions/workflows/ci.yml)
 ![Platform](https://img.shields.io/badge/platform-Android%2010%2B-green)
 ![ABI](https://img.shields.io/badge/ABI-arm64--v8a-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
@@ -85,7 +85,7 @@ Proyek ini adalah **Phase 1 / PoC** — membuktikan bahwa model vision-language 
 ### 1. Clone & buka di Android Studio
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/aan-andiyanaS/airi-neuron.git
 # Android Studio: File → Open → e:\Project\AIRI\odslm\
 ```
 

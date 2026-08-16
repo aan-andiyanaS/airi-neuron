@@ -99,4 +99,7 @@ dependencies {
 
     // Room in-memory for repository tests
     testImplementation(libs.room.testing)
+
+    // LeakCanary — memory leak detection in debug builds (no config needed)
+    debugImplementation(libs.leakcanary)
 }

@@ -1,5 +1,5 @@
 # Testing Rules & Quality Assurance
-## Phase 1: On-Device Multimodal SLM
+## AIRI Neuron — Phase 1: On-Device Multimodal SLM
 
 **Version:** 1.1  
 **Date:** 2026-08-16  

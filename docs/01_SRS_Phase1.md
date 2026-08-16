@@ -1,5 +1,5 @@
 # Software Requirements Specification (SRS)
-## Phase 1: On-Device Multimodal SLM (MiniCPM-V 4.6)
+## AIRI Neuron — Phase 1: On-Device Multimodal SLM (MiniCPM-V 4.6)
 
 **Version:** 1.1  
 **Date:** 2026-08-16  

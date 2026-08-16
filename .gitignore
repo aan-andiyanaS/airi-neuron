@@ -4,10 +4,13 @@
 /.idea
 .DS_Store
 /build
+app/build
 /captures
 .externalNativeBuild
 .cxx
 local.properties
+build_test_output.txt
+*.class
 
 # GGUF model files — too large for git (push to device directly)
 *.gguf
